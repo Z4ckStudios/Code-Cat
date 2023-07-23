@@ -21,17 +21,7 @@
 {
     position: absolute;
     top: 13%;
-    left: 9.3%;
-    font-family: Times;
-    font-size: x-large;
-    background-color: rgb(75, 75, 75);
-    color: rgb(255, 255, 255);
-}
-.button3
-{
-    position: absolute;
-    top: 13%;
-    left: 19.3%;
+    left: 10.3%;
     font-family: Times;
     font-size: x-large;
     background-color: rgb(75, 75, 75);
@@ -60,20 +50,6 @@
     color: rgb(75, 75, 75);
     visibility: collapse;
 }
-.code3
-{
-    position: absolute;
-    top: 20%;
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-}
-.code4
-{
-    position: absolute;
-    top: 22.7%;
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-}
 
 /*Media Separation*/
 
@@ -92,13 +68,7 @@
     .button2
     {
         top: 10%;
-        left: 24.5%;
-        font-size: 17px;
-    }
-    .button3
-    {
-        top: 10%;
-        left: 50%;
+        left: 26.5%;
         font-size: 17px;
     }
     .code1
@@ -114,17 +84,5 @@
         top: 6.5%;
         visibility: visible;
         font-size: 14px;
-    }
-    .code3
-    {
-        top: 16%;
-        left: 2%;
-        font-size: 15px;
-    }
-    .code4
-    {
-        top: 18.7%;
-        left: 2%;
-        font-size: 15px;
     }
 }

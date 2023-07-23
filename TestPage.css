@@ -21,7 +21,7 @@
 {
     position: absolute;
     top: 13%;
-    left: 9.3%;
+    left: 10.3%;
     font-family: Times;
     font-size: x-large;
     background-color: rgb(75, 75, 75);
@@ -92,13 +92,13 @@
     .button2
     {
         top: 10%;
-        left: 24.5%;
+        left: 26.5%;
         font-size: 17px;
     }
     .button3
     {
         top: 10%;
-        left: 50%;
+        left: 49.5%;
         font-size: 17px;
     }
     .code1
