@@ -1,0 +1,130 @@
+.body
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    width: 100%;
+}
+.button1
+{
+    position: absolute;
+    top: 13%;
+    left: 0.5%;
+    font-family: Times;
+    font-size: x-large;
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+}
+.button2
+{
+    position: absolute;
+    top: 13%;
+    left: 9.3%;
+    font-family: Times;
+    font-size: x-large;
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+}
+.button3
+{
+    position: absolute;
+    top: 13%;
+    left: 19.3%;
+    font-family: Times;
+    font-size: x-large;
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+}
+.code1
+{
+    position: absolute;
+    top: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Times;
+}
+.code2
+{
+    position: absolute;
+    top: 9.3%;
+    font-size: x-large;
+    color: rgb(75, 75, 75);
+}
+.code2-1
+{
+    position: absolute;
+    top: 9.3%;
+    font-size: x-large;
+    color: rgb(75, 75, 75);
+    visibility: collapse;
+}
+.code3
+{
+    position: absolute;
+    top: 20%;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+.code4
+{
+    position: absolute;
+    top: 22.7%;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+/*Media Separation*/
+
+@media only screen and (max-width: 600px) {
+    .wrapper
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .button1
+    {
+        top: 10%;
+        left: 2%;
+        font-size: 17px;
+    }
+    .button2
+    {
+        top: 10%;
+        left: 27%;
+        font-size: 17px;
+    }
+    .button3
+    {
+        top: 10%;
+        left: 55.5%;
+        font-size: 17px;
+    }
+    .code1
+    {
+        font-size: 30px;
+    }
+    .code2
+    {
+        visibility: collapse;
+    }
+    .code2-1
+    {
+        top: 6.5%;
+        visibility: visible;
+        font-size: 14px;
+    }
+    .code3
+    {
+        top: 16%;
+        left: 2%;
+        font-size: 15px;
+    }
+    .code4
+    {
+        top: 18.7%;
+        left: 2%;
+        font-size: 15px;
+    }
+}
