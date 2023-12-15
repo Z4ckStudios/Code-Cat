@@ -7,7 +7,7 @@
 {
     width: 100%;
 }
-.button1
+.FeedbackButton
 {
     position: absolute;
     top: 13%;
@@ -17,27 +17,27 @@
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
 }
-.button2
+.AGButton
 {
     position: absolute;
     top: 13%;
-    left: 9.3%;
+    left: 8.5%;
     font-family: Times;
     font-size: x-large;
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
 }
-.button3
+.TPbutton
 {
     position: absolute;
     top: 13%;
-    left: 19.3%;
+    left: 17.75%;
     font-family: Times;
     font-size: x-large;
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
 }
-.code1
+.MainTitle
 {
     position: absolute;
     top: 1%;
@@ -45,29 +45,23 @@
     font-size: 50px;
     font-family: Times;
 }
-.code2
+.TitleUnderline
 {
     position: absolute;
-    top: 9.3%;
-    font-size: x-large;
-    color: rgb(75, 75, 75);
+    top: 8%;
+    left: 0.5%;
+    width: 99%;
+    height: 0.25%;
+    background: rgb(75, 75, 75);
 }
-.code2-1
-{
-    position: absolute;
-    top: 9.3%;
-    font-size: x-large;
-    color: rgb(75, 75, 75);
-    visibility: collapse;
-}
-.code3
+.SubtitlesTop
 {
     position: absolute;
     top: 20%;
     color: rgb(255, 255, 255);
     font-family: Arial;
 }
-.code4
+.SubtitlesBottom
 {
     position: absolute;
     top: 22.7%;
@@ -83,45 +77,41 @@
         width: 600px;
         margin: 0 auto;
     }
-    .button1
+    .FeedbackButton
     {
         top: 10%;
         left: 2%;
         font-size: 17px;
     }
-    .button2
+    .AGButton
     {
         top: 10%;
-        left: 27%;
+        left: 23%;
         font-size: 17px;
     }
-    .button3
+    .TPbutton
     {
         top: 10%;
-        left: 55.5%;
+        left: 47%;
         font-size: 17px;
     }
-    .code1
+    .MainTitle
     {
         font-size: 30px;
     }
-    .code2
+    .TitleUnderline
     {
-        visibility: collapse;
+        left: 2%;
+        width: 96%;
+        top: 5%;
     }
-    .code2-1
-    {
-        top: 6.5%;
-        visibility: visible;
-        font-size: 14px;
-    }
-    .code3
+    .SubtitlesTop
     {
         top: 16%;
         left: 2%;
         font-size: 15px;
     }
-    .code4
+    .SubtitlesBottom
     {
         top: 18.7%;
         left: 2%;

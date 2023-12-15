@@ -7,7 +7,7 @@
 {
     width: 100%;
 }
-.button1
+.MPButton
 {
     position: absolute;
     top: 13%;
@@ -17,17 +17,17 @@
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
 }
-.button2
+.AGButton
 {
     position: absolute;
     top: 13%;
-    left: 10.3%;
+    left: 9.25%;
     font-family: Times;
     font-size: x-large;
     background-color: rgb(75, 75, 75);
     color: rgb(255, 255, 255);
 }
-.code1
+.MainTitle
 {
     position: absolute;
     top: 1%;
@@ -35,20 +35,14 @@
     font-size: 50px;
     font-family: Times;
 }
-.code2
+.TitleUnderline
 {
     position: absolute;
-    top: 9.3%;
-    font-size: x-large;
-    color: rgb(75, 75, 75);
-}
-.code2-1
-{
-    position: absolute;
-    top: 9.3%;
-    font-size: x-large;
-    color: rgb(75, 75, 75);
-    visibility: collapse;
+    top: 8%;
+    left: 0.5%;
+    width: 99%;
+    height: 0.25%;
+    background: rgb(75, 75, 75);
 }
 
 /*Media Separation*/
@@ -59,30 +53,26 @@
         width: 600px;
         margin: 0 auto;
     }
-    .button1
+    .MPButton
     {
         top: 10%;
         left: 2%;
         font-size: 17px;
     }
-    .button2
+    .AGButton
     {
         top: 10%;
-        left: 29.5%;
+        left: 25%;
         font-size: 17px;
     }
-    .code1
+    .MainTitle
     {
         font-size: 30px;
     }
-    .code2
+    .TitleUnderline
     {
-        visibility: collapse;
-    }
-    .code2-1
-    {
-        top: 6.5%;
-        visibility: visible;
-        font-size: 14px;
+        left: 2%;
+        width: 96%;
+        top: 5%;
     }
 }
