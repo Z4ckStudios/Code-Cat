@@ -1,0 +1,323 @@
+body
+{
+    background: rgb(0, 0, 0);
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+.wrapper
+{
+    width: 100%;
+}
+.LinksWrapper
+{
+    position: absolute;
+    top: 36.65%;
+    left: -20%;
+    background: rgb(10, 10, 10);
+    color: white;
+    width: 20%;
+    height: 62.5%;
+    border: none;
+    text-wrap: nowrap;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    line-height: 75px;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+.TwitterB
+{
+    margin-top: 13.75%;
+    margin-left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    text-indent: 25%;
+    background: rgb(0, 0, 150);
+    line-height: 52.5px;
+
+    transition: all;
+    transition-duration: 0.25s;
+}
+.TwitterLogo
+{
+    position: absolute;
+    top: 23.5%;
+    left: 20%;
+}
+.TwitterBCover
+{
+    position: absolute;
+    margin-top: -28.25%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    opacity: 0;
+}
+.YTB
+{
+    margin-top: 13.75%;
+    margin-left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    text-indent: 25%;
+    background: rgb(150, 0, 0);
+    line-height: 52.5px;
+
+    transition: all;
+    transition-duration: 0.25s;
+}
+.YoutubeLogo
+{
+    position: absolute;
+    top: 41.75%;
+    left: 20%;
+}
+.YTBCover
+{
+    position: absolute;
+    margin-top: -28.25%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    opacity: 0;
+}
+.TwitchB
+{
+    margin-top: 13.75%;
+    margin-left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    text-indent: 25%;
+    background: rgb(75, 0, 100);
+    line-height: 52.5px;
+
+    transition: all;
+    transition-duration: 0.25s;
+}
+.TwitchLogo
+{
+    position: absolute;
+    top: 58.25%;
+    left: 16%;
+}
+.TwitchBCover
+{
+    position: absolute;
+    margin-top: -28.25%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    opacity: 0;
+}
+.DiscordB
+{
+    margin-top: 13.75%;
+    margin-left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    text-indent: 25%;
+    background: rgb(50, 50, 255);
+    line-height: 52.5px;
+
+    transition: all;
+    transition-duration: 0.25s;
+}
+.DiscordLogo
+{
+    position: absolute;
+    top: 79.5%;
+    left: 20%;
+}
+.DiscordBCover
+{
+    position: absolute;
+    margin-top: -28.25%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    border-radius: 10px;
+    background: black;
+    opacity: 0;
+}
+.MainTitle
+{
+    position: absolute;
+    top: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Times;
+}
+.TitleUnderline
+{
+    position: absolute;
+    top: 8%;
+    left: 0.5%;
+    width: 99%;
+    height: 0.25%;
+    background: rgb(75, 75, 75);
+}
+.SubtitlesTop
+{
+    position: absolute;
+    top: 13%;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+.SubtitlesBottom
+{
+    position: absolute;
+    top: 15.7%;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+.ZSChangelog
+{
+    position: absolute;
+    top: 55%;
+    left: 115%;
+    transform: translate(-50%, -50%);
+    background: rgb(10, 10, 10);
+    text-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 25%;
+    height: 75%;
+    padding: 25px;
+    color: rgb(0, 255, 0);
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+
+    transition: all;
+    transition-duration: 0.5s;
+}
+::-webkit-scrollbar
+{
+    background: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(25, 25, 25);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+}
+.CSMPanelB
+{
+    position: absolute;
+    top: -1.5%;
+    left: 30.5%;
+    background: rgb(15, 15, 15);
+    width: 30.25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: red;
+    display: none;
+    opacity: 0.5;
+}
+.OSMPanelB
+{
+    position: absolute;
+    top: -1.5%;
+    left: 30.5%;
+    background: rgb(15, 15, 15);
+    width: 30.25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    opacity: 0.5;
+}
+.CChangelogB
+{
+    position: absolute;
+    top: -1.5%;
+    left: 64.75%;
+    background: rgb(15, 15, 15);
+    width: 30.25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: red;
+    display: inline;
+    opacity: 0.5;
+}
+.OChangelogB
+{
+    position: absolute;
+    top: -1.5%;
+    left: 64.75%;
+    background: rgb(15, 15, 15);
+    width: 30.25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+    display: none;
+    opacity: 0.5;
+}
+.Z4ckStudiosLED
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .LinksWrapper
+    {
+        top: 10%;
+        left: 2%;
+        font-size: 17px;
+    }
+    .MainTitle
+    {
+        font-size: 30px;
+    }
+    .TitleUnderline
+    {
+        left: 2%;
+        width: 96%;
+        top: 5%;
+    }
+    .SubtitlesTop
+    {
+        top: 16%;
+        left: 2%;
+        font-size: 15px;
+    }
+    .SubtitlesBottom
+    {
+        top: 18.7%;
+        left: 2%;
+        font-size: 15px;
+    }
+}
