@@ -152,12 +152,14 @@ document.querySelector(".TwitterBCover").addEventListener("mouseover",
 function() {
 
     TwitterB.style.width = "85%";
+    TwitterB.style.marginLeft = "7.25%";
     TwitterBCover.style.cursor = "pointer";
 })
 document.querySelector(".TwitterBCover").addEventListener("mouseout",
 function() {
     
     TwitterB.style.width = "80%";
+    TwitterB.style.marginLeft = "10%";
 })
 
 document.querySelector(".YTBCover").addEventListener("click",
@@ -169,12 +171,14 @@ document.querySelector(".YTBCover").addEventListener("mouseover",
 function() {
 
     YTB.style.width = "85%";
+    YTB.style.marginLeft = "7.25%";
     YTBCover.style.cursor = "pointer";
 })
 document.querySelector(".YTBCover").addEventListener("mouseout",
 function() {
     
     YTB.style.width = "80%";
+    YTB.style.marginLeft = "10%";
 })
 
 document.querySelector(".TwitchBCover").addEventListener("click",
@@ -186,12 +190,14 @@ document.querySelector(".TwitchBCover").addEventListener("mouseover",
 function() {
 
     TwitchB.style.width = "85%";
+    TwitchB.style.marginLeft = "7.25%";
     TwitchBCover.style.cursor = "pointer";
 })
 document.querySelector(".TwitchBCover").addEventListener("mouseout",
 function() {
     
     TwitchB.style.width = "80%";
+    TwitchB.style.marginLeft = "10%";
 })
 
 document.querySelector(".DiscordBCover").addEventListener("click",
@@ -203,10 +209,12 @@ document.querySelector(".DiscordBCover").addEventListener("mouseover",
 function() {
 
     DiscordB.style.width = "85%";
+    DiscordB.style.marginLeft = "7.25%";
     DiscordBCover.style.cursor = "pointer";
 })
 document.querySelector(".DiscordBCover").addEventListener("mouseout",
 function() {
     
     DiscordB.style.width = "80%";
+    DiscordB.style.marginLeft = "10%";
 })
