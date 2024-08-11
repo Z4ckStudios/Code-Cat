@@ -1,3 +1,6 @@
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
+window.history.replaceState(null, document.title, url);
+
 var LinksWrapper = document.querySelector(".LinksWrapper");
 var OSMPanelB = document.querySelector(".OSMPanelB");
 var CSMPanelB = document.querySelector(".CSMPanelB");
@@ -181,7 +184,7 @@ function() {
 document.querySelector(".Page2").addEventListener("click",
 function() {
 
-    location.replace("Page101.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/101");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {

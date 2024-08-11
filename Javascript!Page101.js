@@ -1,3 +1,6 @@
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/101";
+window.history.replaceState(null, document.title, url);
+
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
