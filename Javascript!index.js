@@ -184,7 +184,7 @@ function() {
 document.querySelector(".Page2").addEventListener("click",
 function() {
 
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/101");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/Page101.html");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {
