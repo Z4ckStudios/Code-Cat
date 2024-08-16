@@ -57,25 +57,26 @@ ZSChangelog.style.left = "115%";
 OChangelogB.style.display = "none";
 CChangelogB.style.display = "none";}
 
-if(LWStatus == "Open" && Pages == "false")
+if(CurrentSwitcher == "dockSwitcher")
+{if(LWStatus == "Open")
 {LinksWrapper.style.left = "0.5%";
 CSMPanelB.style.display = "inline";
 OSMPanelB.style.display = "none";}
 else
-if(LWStatus == null, "Closed" && Pages == "false")
+if(LWStatus == null, "Closed")
 {LinksWrapper.style.left = "-20%";
 OSMPanelB.style.display = "inline";
 CSMPanelB.style.display = "none";}
 
-if(ZSCStatus == "Closed" && Pages == "false")
+if(ZSCStatus == "Closed")
 {ZSChangelog.style.left = "115%";
 OChangelogB.style.display = "inline";
 CChangelogB.style.display = "none";}
 else
-if(ZSCStatus == null, "Open" && Pages == "false")
+if(ZSCStatus == null, "Open")
 {ZSChangelog.style.left = "83.5%";
 CChangelogB.style.display = "inline";
-OChangelogB.style.display = "none";}
+OChangelogB.style.display = "none";}}
 
 document.querySelector(".pageSwitcher").addEventListener("click",
 function() {
@@ -89,7 +90,7 @@ function() {
 
     pagesWrapper.style.display = "none";
 
-    if(LWStatus == "Open")
+        if(LWStatus == "Open")
         {LinksWrapper.style.left = "0.5%";
         CSMPanelB.style.display = "inline";
         OSMPanelB.style.display = "none";}
@@ -145,6 +146,8 @@ function() {
     ZSChangelog.style.left = "115%";
     OChangelogB.style.display = "none";
     CChangelogB.style.display = "none";
+
+    location.reload();
 })
 document.querySelector(".dockSwitcher").addEventListener("mouseover",
 function() {
@@ -164,7 +167,8 @@ function() {
 document.querySelector(".Page1").addEventListener("click",
 function() {
 
-    
+    //location.replace("DisC.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC.html");
 })
 document.querySelector(".Page1").addEventListener("mouseover",
 function() {
@@ -184,6 +188,7 @@ function() {
 document.querySelector(".Page2").addEventListener("click",
 function() {
 
+    //location.replace("TZP.html");
     location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP.html");
 })
 document.querySelector(".Page2").addEventListener("mouseover",

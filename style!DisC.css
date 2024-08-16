@@ -1,0 +1,31 @@
+body
+{
+    background: rgb(0, 0, 100) image-set("DisCLogo.png");
+    background-repeat: repeat;
+    background-position-y: 58.5%;
+    background-position-x: 48%;
+    background-size: 500%;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+.DisCDarken
+{
+    position: absolute;
+    top: -5%;
+    left: 0%;
+    width: 120%;
+    height: 120%;
+    background: black;
+    opacity: 0.75;
+}
+.eventTimer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    color: white;
+    font-size: 100px;
+}
