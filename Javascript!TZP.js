@@ -1,4 +1,5 @@
-var url = "https://Z4ckStudios.com/TZP";
+//var url = "https://Z4ckStudios.com/TZP";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/TZP";
 window.history.replaceState(null, document.title, url);
 
 const countdownInterval = setInterval(countdownTimer, 1000);

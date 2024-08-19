@@ -1,5 +1,6 @@
-var url = "https://Z4ckStudios.com/";
-//window.history.replaceState(null, document.title, url);
+//var url = "https://Z4ckStudios.com/";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
+window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
 var OSMPanelB = document.querySelector(".OSMPanelB");
@@ -49,32 +50,32 @@ dockSwitcher.style.display = "inline";
 pagesWrapper.style.display = "none";}
 
 if(Pages == null, "true")
-{LinksWrapper.style.left = "-20%";
+{LinksWrapper.style.display = "none";
 OSMPanelB.style.display = "none";
 CSMPanelB.style.display = "none";
 
-ZSChangelog.style.left = "115%";
+ZSChangelog.style.display = "none";
 OChangelogB.style.display = "none";
 CChangelogB.style.display = "none";}
 
 if(CurrentSwitcher == "dockSwitcher")
 {if(LWStatus == "Open")
-{LinksWrapper.style.left = "0.5%";
+{LinksWrapper.style.display = "inline";
 CSMPanelB.style.display = "inline";
 OSMPanelB.style.display = "none";}
 else
 if(LWStatus == null, "Closed")
-{LinksWrapper.style.left = "-20%";
+{LinksWrapper.style.display = "none";
 OSMPanelB.style.display = "inline";
 CSMPanelB.style.display = "none";}
 
 if(ZSCStatus == "Closed")
-{ZSChangelog.style.left = "115%";
+{ZSChangelog.style.display = "none";
 OChangelogB.style.display = "inline";
 CChangelogB.style.display = "none";}
 else
 if(ZSCStatus == null, "Open")
-{ZSChangelog.style.left = "83.5%";
+{ZSChangelog.style.display = "inline";
 CChangelogB.style.display = "inline";
 OChangelogB.style.display = "none";}}
 
@@ -91,22 +92,22 @@ function() {
     pagesWrapper.style.display = "none";
 
         if(LWStatus == "Open")
-        {LinksWrapper.style.left = "0.5%";
+        {LinksWrapper.style.display = "inline";
         CSMPanelB.style.display = "inline";
         OSMPanelB.style.display = "none";}
         else
         if(LWStatus == null, "Closed")
-        {LinksWrapper.style.left = "-20%";
+        {LinksWrapper.style.display = "none";
         OSMPanelB.style.display = "inline";
         CSMPanelB.style.display = "none";}
         
         if(ZSCStatus == "Closed")
-        {ZSChangelog.style.left = "115%";
+        {ZSChangelog.style.display = "none";
         OChangelogB.style.display = "inline";
         CChangelogB.style.display = "none";}
         else
         if(ZSCStatus == null, "Open")
-        {ZSChangelog.style.left = "83.5%";
+        {ZSChangelog.style.display = "inline";
         CChangelogB.style.display = "inline";
         OChangelogB.style.display = "none";}
 })
@@ -139,11 +140,9 @@ function() {
 
     pagesWrapper.style.display = "inline";
 
-    LinksWrapper.style.left = "-20%";
     OSMPanelB.style.display = "none";
     CSMPanelB.style.display = "none";
 
-    ZSChangelog.style.left = "115%";
     OChangelogB.style.display = "none";
     CChangelogB.style.display = "none";
 
@@ -168,7 +167,8 @@ document.querySelector(".Page1").addEventListener("click",
 function() {
 
     //location.replace("DisC.html");
-    location.replace("https://Z4ckStudios.com/DisC.html");
+    //location.replace("https://Z4ckStudios.com/DisC.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC.html");
 })
 document.querySelector(".Page1").addEventListener("mouseover",
 function() {
@@ -189,7 +189,8 @@ document.querySelector(".Page2").addEventListener("click",
 function() {
 
     //location.replace("TZP.html");
-    location.replace("https://Z4ckStudios.com/TZP.html");
+    //location.replace("https://Z4ckStudios.com/TZP.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP.html");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {
@@ -254,7 +255,8 @@ function() {
 document.querySelector(".OSMPanelB").addEventListener("click",
 function() {
     
-    LinksWrapper.style.left = "0.5%";
+    LinksWrapper.style.display = "inline";
+
     CSMPanelB.style.display = "inline";
     OSMPanelB.style.display = "none";
 
@@ -278,11 +280,12 @@ function() {
 
 document.querySelector(".CSMPanelB").addEventListener("click",
 function() {
-        
-    LinksWrapper.style.left = "-20%";
+
+    LinksWrapper.style.display = "none";
+
     OSMPanelB.style.display = "inline";
     CSMPanelB.style.display = "none";
-    
+
     localStorage.setItem("LWStatus", "Closed");
 })
 document.querySelector(".CSMPanelB").addEventListener("mouseover",
@@ -303,8 +306,9 @@ function() {
 
 document.querySelector(".OChangelogB").addEventListener("click",
 function() {
+
+    ZSChangelog.style.display = "inline";
     
-    ZSChangelog.style.left = "83.5%";
     CChangelogB.style.display = "inline";
     OChangelogB.style.display = "none";
 
@@ -328,8 +332,9 @@ function() {
 
 document.querySelector(".CChangelogB").addEventListener("click",
 function() {
+
+    ZSChangelog.style.display = "none";
         
-    ZSChangelog.style.left = "115%";
     OChangelogB.style.display = "inline";
     CChangelogB.style.display = "none";
     

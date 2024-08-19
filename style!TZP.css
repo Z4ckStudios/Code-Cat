@@ -10,10 +10,10 @@ body
 .TZPDarken
 {
     position: absolute;
-    top: -5%;
+    top: -2.5%;
     left: 0%;
-    width: 120%;
-    height: 120%;
+    width: 101%;
+    height: 101%;
     background: black;
     opacity: 0.75;
 }
@@ -26,4 +26,18 @@ body
     font-family: Times;
     color: white;
     font-size: 100px;
+}
+@media screen and (max-width: 900px) {
+    .eventTimer {
+        font-size: 59.22px;
+    }
+    .TZPDarken
+    {
+        position: absolute;
+        top: -5%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+    }
 }
