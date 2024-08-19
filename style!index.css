@@ -396,39 +396,545 @@ body
     width: 100%;
     height: 100%;
 }
-
-@media only screen and (max-width: 600px) {
-    .wrapper
-    {
-        width: 600px;
-        margin: 0 auto;
+.PHLightenBackground
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 100%;
+    height: 102.5%;
+    display: none;
+    overflow: hidden;
+}
+.C1
+{
+    font-size: 18px;
+}
+.C2
+{
+    font-size: 18px;
+}
+.C3
+{
+    font-size: 18px;
+}
+.C4
+{
+    font-size: 18px;
+}
+.C5
+{
+    font-size: 18px;
+}
+.C6
+{
+    font-size: 18px;
+}
+.C7
+{
+    font-size: 18px;
+}
+.C8
+{
+    font-size: 18px;
+}
+.C9
+{
+    font-size: 18px;
+}
+.C10
+{
+    font-size: 18px;
+}
+.C11
+{
+    font-size: 18px;
+}
+.C12
+{
+    font-size: 18px;
+}
+.C13
+{
+    font-size: 18px;
+}
+.C14
+{
+    font-size: 18px;
+}
+.C15
+{
+    font-size: 18px;
+}
+.C16
+{
+    font-size: 18px;
+}
+.C17
+{
+    font-size: 18px;
+}
+.C18
+{
+    font-size: 18px;
+}
+.C19
+{
+    font-size: 18px;
+}
+.C20
+{
+    font-size: 18px;
+}
+.C21
+{
+    font-size: 18px;
+}
+.C22
+{
+    font-size: 18px;
+}
+.C23
+{
+    font-size: 18px;
+}
+.C24
+{
+    font-size: 18px;
+}
+.C25
+{
+    font-size: 18px;
+}
+.C26
+{
+    font-size: 18px;
+}
+.C27
+{
+    font-size: 18px;
+}
+.C28
+{
+    font-size: 18px;
+}
+.C29
+{
+    font-size: 18px;
+}
+.C30
+{
+    font-size: 18px;
+}
+.C31
+{
+    font-size: 18px;
+}
+.C32
+{
+    font-size: 18px;
+}
+.C33
+{
+    font-size: 18px;
+}
+.C34
+{
+    font-size: 18px;
+}
+.C35
+{
+    font-size: 18px;
+}
+.C36
+{
+    font-size: 18px;
+}
+.C37
+{
+    font-size: 18px;
+}
+.C38
+{
+    font-size: 18px;
+}
+.C39
+{
+    font-size: 18px;
+}
+.C40
+{
+    font-size: 18px;
+}
+.C41
+{
+    font-size: 18px;
+}
+.C42
+{
+    font-size: 18px;
+}
+.C43
+{
+    font-size: 18px;
+}
+@media only screen and (max-width: 900px) {
+    .MainTitle {
+        font-size: 18px;
     }
-    .LinksWrapper
-    {
-        top: 10%;
-        left: 2%;
-        font-size: 17px;
+    .TitleUnderline {
+        top: 4%;
     }
-    .MainTitle
-    {
-        font-size: 30px;
+    .Z4ckStudiosLED {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: white;
     }
-    .TitleUnderline
-    {
-        left: 2%;
-        width: 96%;
-        top: 5%;
+    .PHLightenBackground {
+        display: inline;
+        opacity: 0.05;
     }
-    .SubtitlesTop
-    {
-        top: 16%;
-        left: 2%;
-        font-size: 15px;
+    .pageSwitcher {
+        left: 22%;
+        width: 3.5%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        background: rgb(25, 25, 25);
     }
-    .SubtitlesBottom
+    .dockSwitcher {
+        left: 22%;
+        width: 3.5%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .Page1 {
+        left: -80%;
+        width: 77%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .Page2 {
+        left: 30%;
+        width: 77%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .Page3 {
+        left: 140%;
+        width: 77%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .Page4 {
+        left: 250%;
+        width: 77%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .Page5 {
+        left: 360%;
+        width: 77%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .CSMPanelB {
+        left: 28%;
+        width: 34%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        background: rgb(25, 25, 25);
+    }
+    .OSMPanelB {
+        left: 28%;
+        width: 34%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        background: rgb(25, 25, 25);
+    }
+    .CChangelogB {
+        left: 64%;
+        width: 34%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        background: rgb(25, 25, 25);
+    }
+    .OChangelogB {
+        left: 64%;
+        width: 34%;
+        height: 3%;
+        padding: 5px;
+        font-size: 10px;
+        border-radius: 5px;
+        background: rgb(25, 25, 25);
+    }
+    .SubtitlesTop {
+        top: 12%;
+        font-size: 10px;
+    }
+    .SubtitlesBottom {
+        font-size: 10px;
+    }
+    .LinksWrapper {
+        top: 31%;
+        width: 17.5%;
+        height: 67.5%;
+        background: rgb(30, 30, 30);
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .TwitterB {
+        margin-top: 5%;
+        height: 11%;
+        line-height: 24px;
+    }
+    .TwitterBCover {
+        margin-top: 5%;
+        height: 11%;
+    }
+    .TwitterLogo {
+        top: 21.25%;
+    }
+    .YTB {
+        margin-top: 12.5%;
+        height: 11%;
+        line-height: 24px;
+    }
+    .YTBCover {
+        margin-top: 12.5%;
+        height: 11%;
+    }
+    .YoutubeLogo {
+        top: 40%;
+    }
+    .TwitchB {
+        margin-top: 12.5%;
+        height: 11%;
+        line-height: 24px;
+    }
+    .TwitchBCover {
+        margin-top: 12.5%;
+        height: 11%;
+    }
+    .TwitchLogo {
+        top: 56.9%;
+    }
+    .DiscordB {
+        margin-top: 12.5%;
+        height: 11%;
+        line-height: 24px;
+    }
+    .DiscordBCover {
+        margin-top: 12.5%;
+        height: 11%;
+    }
+    .DiscordLogo {
+        top: 78.9%;
+    }
+    .ZSChangelog
     {
-        top: 18.7%;
-        left: 2%;
-        font-size: 15px;
+        top: 60%;
+        margin-left: 4%;
+        background: rgb(30, 30, 30);
+        font-size: 11px;
+        height: 60%;
+        width: 17.5%;
+        line-height: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .C1
+    {
+        font-size: 10px;
+    }
+    .C2
+    {
+        font-size: 10px;
+    }
+    .C3
+    {
+        font-size: 10px;
+    }
+    .C4
+    {
+        font-size: 10px;
+    }
+    .C5
+    {
+        font-size: 10px;
+    }
+    .C6
+    {
+        font-size: 10px;
+    }
+    .C7
+    {
+        font-size: 10px;
+    }
+    .C8
+    {
+        font-size: 10px;
+    }
+    .C9
+    {
+        font-size: 10px;
+    }
+    .C10
+    {
+        font-size: 10px;
+    }
+    .C11
+    {
+        font-size: 10px;
+    }
+    .C12
+    {
+        font-size: 10px;
+    }
+    .C13
+    {
+        font-size: 10px;
+    }
+    .C14
+    {
+        font-size: 10px;
+    }
+    .C15
+    {
+        font-size: 10px;
+    }
+    .C16
+    {
+        font-size: 10px;
+    }
+    .C17
+    {
+        font-size: 10px;
+    }
+    .C18
+    {
+        font-size: 10px;
+    }
+    .C19
+    {
+        font-size: 10px;
+    }
+    .C20
+    {
+        font-size: 10px;
+    }
+    .C21
+    {
+        font-size: 10px;
+    }
+    .C22
+    {
+        font-size: 10px;
+    }
+    .C23
+    {
+        font-size: 10px;
+    }
+    .C24
+    {
+        font-size: 10px;
+    }
+    .C25
+    {
+        font-size: 10px;
+    }
+    .C26
+    {
+        font-size: 10px;
+    }
+    .C27
+    {
+        font-size: 10px;
+    }
+    .C28
+    {
+        font-size: 10px;
+    }
+    .C29
+    {
+        font-size: 10px;
+    }
+    .C30
+    {
+        font-size: 10px;
+    }
+    .C31
+    {
+        font-size: 10px;
+    }
+    .C32
+    {
+        font-size: 10px;
+    }
+    .C33
+    {
+        font-size: 10px;
+    }
+    .C34
+    {
+        font-size: 10px;
+    }
+    .C35
+    {
+        font-size: 10px;
+    }
+    .C36
+    {
+        font-size: 10px;
+    }
+    .C37
+    {
+        font-size: 10px;
+    }
+    .C38
+    {
+        font-size: 10px;
+    }
+    .C39
+    {
+        font-size: 10px;
+    }
+    .C40
+    {
+        font-size: 10px;
+    }
+    .C41
+    {
+        font-size: 10px;
+    }
+    .C42
+    {
+        font-size: 10px;
+    }
+    .C43
+    {
+        font-size: 10px;
     }
 }
