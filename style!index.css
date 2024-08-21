@@ -588,7 +588,52 @@ body
 {
     font-size: 18px;
 }
+.portraitInformative
+{
+    display: none;
+}
+.POIBackground
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 106%;
+    background: linear-gradient(black, rgb(50, 0, 0), black, black, rgb(0, 0, 50), black);
+}
+.portraitInformative li
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+    list-style: none;
+    text-wrap: wrap;
+    width: 80%;
+    text-align: center;
+}
+.wrapper
+{
+    display: inline;
+}
 @media only screen and (max-width: 900px) {
+    .wrapper {
+        display: none;
+    }
+    .portraitInformative {
+        display: inline;
+    }
+}
+@media only screen and (max-height: 700px) {
+    .wrapper {
+        display: inline;
+    }
+    .portraitInformative {
+        display: none;
+    }
     .MainTitle {
         font-size: 18px;
     }
