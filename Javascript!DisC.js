@@ -7,7 +7,7 @@ var homeButton = document.querySelector(".homeButton");
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
-    const time = new Date(`August 31, 2024 00:00:00`);
+    const time = new Date(`November 30, 2024 00:00:00`);
     const currentTime = new Date();
 
     const difference = time - currentTime;
@@ -28,7 +28,7 @@ function countdownTimer(){
     ${minutes} : 
     ${seconds}`;
 
-    if(currentTime > new Date(`August 31, 2024 00:00:00`))
+    if(currentTime > new Date(`November 30, 2024 00:00:00`))
     {document.querySelector(".eventTimer").innerHTML = "00 : 00 : 00 : 00"
     clearInterval(countdownInterval);}
 }
