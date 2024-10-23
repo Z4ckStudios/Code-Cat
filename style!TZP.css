@@ -5,7 +5,6 @@ body
     background-size: 50%;
     image-rendering: pixelated;
     padding: 0;
-    user-select: none;
     overflow: hidden;
 }
 .TZPDarken

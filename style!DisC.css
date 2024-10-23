@@ -7,7 +7,6 @@ body
     background-position-x: 48%;
     background-size: 500%;
     padding: 0;
-    user-select: none;
     overflow: hidden;
 }
 .DisCDarken
