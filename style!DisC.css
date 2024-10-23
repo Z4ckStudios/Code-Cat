@@ -1,6 +1,7 @@
 body
 {
     background: rgb(0, 0, 100) image-set("DisCLogo.png");
+    alt: "Ph4nt0mZStudios - Disturbed Connections Countdown";
     background-repeat: repeat;
     background-position-y: 58.5%;
     background-position-x: 48%;
