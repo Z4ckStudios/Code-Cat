@@ -1,5 +1,5 @@
 //var url = "https://Z4ckStudios.com/";
-var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
+var url = "https://Ph4nt0mZStudios.github.io/Z4ckStudios/";
 window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
@@ -168,7 +168,7 @@ function() {
 
     //location.replace("DisC.html");
     //location.replace("https://Z4ckStudios.com/DisC.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC.html");
+    location.replace("https://Ph4nt0mZStudios.github.io/Z4ckStudios/DisC.html");
 })
 document.querySelector(".Page1").addEventListener("mouseover",
 function() {
@@ -190,7 +190,7 @@ function() {
 
     //location.replace("TZP.html");
     //location.replace("https://Z4ckStudios.com/TZP.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP.html");
+    location.replace("https://Ph4nt0mZStudios.github.io/Z4ckStudios/TZP.html");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {
@@ -378,7 +378,7 @@ function() {
 document.querySelector(".YTBCover").addEventListener("click",
 function() {
 
-    window.open("https://youtube.com/@Z4ckStudios");
+    window.open("https://youtube.com/@Ph4nt0mZStudios");
 })
 document.querySelector(".YTBCover").addEventListener("mouseover",
 function() {
@@ -416,22 +416,7 @@ function() {
 document.querySelector(".DiscordBCover").addEventListener("click",
 function() {
 
-    //window.open("https://discord.gg/");
-    DiscordB.innerHTML = "Inactive";
-    DiscordB.style.color = "red";
-
-    let DSBTimer = 0;
-    const DSBInterval = setInterval(DSBInt, 1000);
-
-    function DSBInt() {
-        DSBTimer++
-
-        if(DSBTimer < 3)
-        {DiscordB.innerHTML = "Discord";
-        DiscordB.style.color = "white";}
-        
-        if(DSBTimer < 3) {clearInterval(DSBInterval);}
-    }
+    window.open("https://discord.gg/KZsgcdra3c");
 })
 document.querySelector(".DiscordBCover").addEventListener("mouseover",
 function() {
