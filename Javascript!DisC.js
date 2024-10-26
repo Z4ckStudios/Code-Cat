@@ -1,5 +1,5 @@
 //var url = "https://Z4ckStudios.com/DisC";
-var url = "https://Ph4nt0mZStudios.github.io/Z4ckStudios/DisC";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/DisC";
 window.history.replaceState(null, document.title, url);
 
 var homeButton = document.querySelector(".homeButton");
@@ -38,7 +38,7 @@ function() {
 
     //location.replace("index.html");
     //location.replace("https://Z4ckStudios.com/index.html");
-    location.replace("https://Ph4nt0mZStudios.github.io/Z4ckStudios/index.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/index.html");
 })
 homeButton.addEventListener("mouseover",
 function() {

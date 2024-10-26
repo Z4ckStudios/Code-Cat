@@ -1,5 +1,5 @@
 //var url = "https://Z4ckStudios.com/";
-var url = "https://Ph4nt0mZStudios.github.io/Z4ckStudios/";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
 window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
@@ -168,7 +168,7 @@ function() {
 
     //location.replace("DisC.html");
     //location.replace("https://Z4ckStudios.com/DisC.html");
-    location.replace("https://Ph4nt0mZStudios.github.io/Z4ckStudios/DisC.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC.html");
 })
 document.querySelector(".Page1").addEventListener("mouseover",
 function() {
@@ -190,7 +190,7 @@ function() {
 
     //location.replace("TZP.html");
     //location.replace("https://Z4ckStudios.com/TZP.html");
-    location.replace("https://Ph4nt0mZStudios.github.io/Z4ckStudios/TZP.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP.html");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {
