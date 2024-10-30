@@ -245,6 +245,7 @@ body
     font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
+    text-wrap: nowrap;
 }
 .Page2
 {
@@ -258,6 +259,7 @@ body
     font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
+    text-wrap: nowrap;
 }
 .Page3
 {
@@ -271,6 +273,7 @@ body
     font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
+    text-wrap: nowrap;
 }
 .Page4
 {
@@ -284,6 +287,7 @@ body
     font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
+    text-wrap: nowrap;
 }
 .Page5
 {
@@ -297,6 +301,7 @@ body
     font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
+    text-wrap: nowrap;
 }
 .dockSwitcher
 {
