@@ -168,7 +168,7 @@ function() {
 
     //location.replace("DisC.html");
     //location.replace("https://Z4ckStudios.com/DisC.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/DisC");
 })
 document.querySelector(".Page1").addEventListener("mouseover",
 function() {
@@ -190,7 +190,7 @@ function() {
 
     //location.replace("TZP.html");
     //location.replace("https://Z4ckStudios.com/TZP.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/TZP");
 })
 document.querySelector(".Page2").addEventListener("mouseover",
 function() {

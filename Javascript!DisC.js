@@ -60,7 +60,7 @@ function() {
 
     //location.replace("index.html");
     //location.replace("https://Z4ckStudios.com/index.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/index.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/");
 })
 homeButton.addEventListener("mouseover",
 function() {
