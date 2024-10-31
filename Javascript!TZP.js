@@ -30,22 +30,33 @@ function countdownTimer(){
     ${minutes}m : 
     ${seconds}s`;
 
+    if(minutes == 0)
+    {eventTimer.innerHTML =
+    `${days}d : 
+    ${hours}h : 
+    ${seconds}s`;}
+
     if(days == 0)
     {eventTimer.innerHTML =
     `${hours}h : 
     ${minutes}m : 
     ${seconds}s`;}
 
-    if(hours == 0)
+    if(days == 0 && hours == 0)
     {eventTimer.innerHTML =
     `${minutes}m : 
     ${seconds}s`;}
 
-    if(minutes == 0)
+    if(days == 0 && minutes == 0)
+    {eventTimer.innerHTML =
+    `${hours}h : 
+    ${seconds}s`;}
+
+    if(days == 0 && hours == 0 && minutes == 0)
     {eventTimer.innerHTML =
     `${seconds}s`;}
 
-    if(seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
+    if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
     {eventTimer.style.color = "#FF0000";}
 
     if(currentTime > new Date(`October 31, 2024 22:00:00`))
