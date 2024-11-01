@@ -9,7 +9,7 @@ var homeButton = document.querySelector(".homeButton");
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
-    const time = new Date(`October 31, 2024 23:00:00`);
+    const time = new Date(`October 31, 2024 23:30:00`);
     const currentTime = new Date();
 
     const difference = time - currentTime;
@@ -59,7 +59,7 @@ function countdownTimer(){
     if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
     {eventTimer.style.color = "#FF0000";}
 
-    if(currentTime > new Date(`October 31, 2024 23:00:00`))
+    if(currentTime > new Date(`October 31, 2024 23:30:00`))
     {eventTimer.innerHTML = "0"
     eventTimer.style.display = 'none';
     body.style.background = "#FF0000"
