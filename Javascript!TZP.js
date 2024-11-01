@@ -1,6 +1,6 @@
 //var url = "https://Z4ckStudios.com/TZP";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/TZP";
-//window.history.replaceState(null, document.title, url);
+window.history.replaceState(null, document.title, url);
 
 var body = document.querySelector("body");
 var eventTimer = document.querySelector(".eventTimer");
