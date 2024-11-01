@@ -7,6 +7,7 @@ var eventTimer = document.querySelector(".eventTimer");
 var homeButton = document.querySelector(".homeButton");
 var TZPDarken = document.querySelector(".TZPDarken");
 var FLBackground = document.querySelector(".FLBackground");
+var FLBackgroundMobile = document.querySelector(".FLBackgroundMobile");
 var TCTSText = document.querySelector(".TCTSText");
 var FLTitle = document.querySelector(".FLTitle");
 var TZPMix = document.querySelector(".TZPMix");
@@ -122,12 +123,14 @@ function() {
     TCTSText.style.display = "none";
     eventTimer.style.display = 'inline';
     FLBackground.style.display = "none";
+    FLBackgroundMobile.style.display = "none";
     boxSep.style.display = "none";
     TZPMix.style.display = "none";
 
     eventTimer.innerHTML = "See you soon.. :)";
 
-    let SYSTimer = 0;
+    if(TZPMix.style.fontSize = "24px")
+    {let SYSTimer = 0;
     const SYSInterval = setInterval(SYSInt, 1000);
 
     function SYSInt() {
@@ -137,13 +140,36 @@ function() {
         {FLTitle.style.display = "inline";
         TCTSText.style.display = "inline";
         eventTimer.style.display = 'none';
-        FLBackground.style.display = "inline";
         boxSep.style.display = "inline";
         TZPMix.style.display = "inline";
 
+        FLBackground.style.display = "inline";
+        FLBackgroundMobile.style.display = "none";
+
         eventTimer.innerHTML = "0";
         clearInterval(SYSInterval);}
-    }
+    }}
+
+    if(TZPMix.style.fontSize = "14px")
+    {let SYSTimer = 0;
+    const SYSInterval = setInterval(SYSInt, 1000);
+
+    function SYSInt() {
+        SYSTimer++
+
+        if(SYSTimer > 1)
+        {FLTitle.style.display = "inline";
+        TCTSText.style.display = "inline";
+        eventTimer.style.display = 'none';
+        boxSep.style.display = "inline";
+        TZPMix.style.display = "inline";
+
+        FLBackground.style.display = "none";
+        FLBackgroundMobile.style.display = "inline";
+
+        eventTimer.innerHTML = "0";
+        clearInterval(SYSInterval);}
+    }}
 })
 TZPMix.addEventListener("mouseover",
 function() {
