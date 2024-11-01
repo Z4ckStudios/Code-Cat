@@ -6,6 +6,7 @@ body
     image-rendering: pixelated;
     padding: 0;
     overflow: hidden;
+    user-select: none;
 }
 .TZPDarken
 {
@@ -63,7 +64,7 @@ body
 .homeButton
 {
     position: absolute;
-    top: -0.5%;
+    top: 87.3%;
     left: 1.2%;
     color: white;
     border-radius: 10px;
@@ -71,6 +72,59 @@ body
     padding: 15px;
     border: 2px solid white;
     background: transparent;
+}
+.TheZenProject
+{
+    display: none;
+}
+.FLBackground
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(7.5px) contrast(1.1) sepia(0.3) brightness(1);
+}
+.FLTitle
+{
+    position: absolute;
+    top: 1%;
+    left: 0.25%;
+    color: white;
+    list-style: none;
+    font-size: 40px;
+    padding: 20px;
+    line-height: 2.5px;
+}
+.TCTSText
+{
+    position: absolute;
+    top: 1.4%;
+    left: 22.4%;
+    color: #0000FF;
+    font-style: italic;
+    font-size: 30px;
+}
+.boxSep
+{
+    position: absolute;
+    top: -1%;
+    left: 0.25%;
+    padding-top: 3%;
+    background: transparent;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 20.8%;
+}
+.TZPMix
+{
+    position: absolute;
+    top: 92%;
+    left: 84%;
+    color: #0000FF;
+    font-style: italic;
+    font-size: 24px;
+    opacity: 0.1;
 }
 @media only screen and (max-width: 900px) {
     body {
