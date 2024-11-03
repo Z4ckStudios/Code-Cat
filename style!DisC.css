@@ -74,6 +74,7 @@ body
     padding: 15px;
     border: 2px solid white;
     background: transparent;
+    font-family: Times;
 }
 @media only screen and (max-width: 900px) {
     body {
@@ -117,7 +118,8 @@ body
         display: none;
     }
     .homeButton {
-        top: -2.5%;
-        font-size: 18px;
+        top: -1%;
+        font-size: 12px;
+        padding: 10px;
     }
 }

@@ -1,7 +1,7 @@
 body
 {
     background: image-set("TZP.png") repeat;
-    alt: "Ph4nt0mZStudios - The Zen Project Countdown";
+    alt: "Z4ckStudios - The Zen Project Countdown";
     background-size: 50%;
     image-rendering: pixelated;
     padding: 0;
@@ -72,6 +72,7 @@ body
     padding: 15px;
     border: 2px solid white;
     background: transparent;
+    font-family: Times;
 }
 .TheZenProject
 {
@@ -100,42 +101,48 @@ body
 {
     position: absolute;
     top: 1%;
-    left: 0.25%;
+    left: 1.7%;
     color: white;
     list-style: none;
     font-size: 40px;
-    padding: 20px;
-    line-height: 2.5px;
+    display: none;
 }
 .TCTSText
 {
     position: absolute;
-    top: 1.4%;
-    left: 22.4%;
-    color: #0000FF;
-    font-style: italic;
-    font-size: 30px;
+    top: 1%;
+    left: 22.5%;
+    color: rgb(200, 50, 50);
+    list-style: none;
+    font-size: 40px;
+    display: none;
 }
 .boxSep
 {
     position: absolute;
     top: -1%;
-    left: 0.25%;
-    padding-top: 3%;
+    left: 0.5%;
+    padding-top: 3.5%;
     background: transparent;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    width: 20.8%;
+    width: 20.6%;
+    display: none;
 }
 .TZPMix
 {
     position: absolute;
     top: 92%;
     left: 84%;
-    color: #0000FF;
+    color: #FFFFFF;
     font-style: italic;
     font-size: 24px;
-    opacity: 0.1;
+    opacity: 0;
+}
+.mobileFix
+{
+    display: none;
+    opacity: 0;
 }
 @media only screen and (max-width: 900px) {
     body {
@@ -178,8 +185,9 @@ body
         display: none;
     }
     .homeButton {
-        top: 75%;
-        font-size: 18px;
+        top: 81.5%;
+        font-size: 12px;
+        padding: 10px;
     }
     .TCTSText {
         top: 2.75%;
@@ -188,16 +196,16 @@ body
     }
     .boxSep {
         top: -3.2%;
-        width: 20.5%;
+        width: 20%;
     }
     .FLTitle {
-        top: -1%;
+        top: 2.75%;
+        left: 2.6%;
         font-size: 18px;
     }
     .TZPMix {
         top: 90%;
         left: 82%;
-        opacity: 0.1;
         font-size: 14px;
         display: inline;
     }

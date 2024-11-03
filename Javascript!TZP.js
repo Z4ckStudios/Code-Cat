@@ -13,6 +13,13 @@ var FLTitle = document.querySelector(".FLTitle");
 var TZPMix = document.querySelector(".TZPMix");
 var TheZenProject = document.querySelector(".TheZenProject");
 var boxSep = document.querySelector(".boxSep");
+var mobileFix = document.querySelector(".mobileFix");
+
+if(TZPMix.style.fontSize == "24px")
+{mobileFix.innerHTML = "Desktop"}
+else
+if(TZPMix.style.fontSize == "14px")
+{mobileFix.innerHTML = "Mobile"}
 
 const countdownInterval = setInterval(countdownTimer, 1000);
 
@@ -73,6 +80,9 @@ function countdownTimer(){
     body.style.background = "black";
     TZPDarken.style.display = "none";
     TheZenProject.style.display = "inline";
+    FLTitle.style.display = "inline";
+    TCTSText.style.display = "inline";
+    boxSep.style.display = "inline";
     clearInterval(countdownInterval);}
 }
 
@@ -101,19 +111,75 @@ function() {
 TCTSText.addEventListener("click",
 function() {
 
-    location.replace("https://www.youtube.com/watch?v=GOr_cB_ZdRo&ab_channel=DefectiveC0deAnimations");
+    if(TCTSText.innerHTML == "Season 1")
+    {TheZenProject.style.display = "none";
+    FLTitle.style.borderRight = "1px solid white";
+    FLTitle.style.paddingRight = "16px";
+    FLTitle.style.borderLeft = "1px solid white";
+    FLTitle.style.paddingLeft = "17px";
+    FLTitle.style.left = "0.49%";
+    FLTitle.style.color = "rgb(200, 50, 50)";
+    TCTSText.innerHTML = "Season 1: The Core That Sparks";
+    TCTSText.style.color = "white";
+    body.style.background = "#222222";
+    boxSep.style.width = "99%";
+    boxSep.style.borderBottom = "1px solid #FFFFFF";
+    boxSep.style.borderRight = "0px";
+    boxSep.style.borderLeft = "0px";}
 })
 TCTSText.addEventListener("mouseover",
 function() {
 
-    TCTSText.style.cursor = "pointer";
-    TCTSText.style.borderBottom = "2px solid #0000FF";
+    if(TCTSText.innerHTML == "Season 1")
+    {TCTSText.style.cursor = "pointer";
+    TCTSText.style.color = "rgb(150, 25, 25)";}
 })
 TCTSText.addEventListener("mouseout",
 function() {
 
-    TCTSText.style.cursor = "default";
-    TCTSText.style.borderBottom = "none";
+    if(TCTSText.innerHTML == "Season 1")
+    {TCTSText.style.cursor = "default";
+    TCTSText.style.color = "rgb(200, 50, 50)";}
+    else
+    {TCTSText.style.cursor = "default";
+    TCTSText.style.color = "rgb(255, 255, 255)";}
+})
+
+FLTitle.addEventListener("click",
+function() {
+
+    if(TCTSText.innerHTML == "Season 1: The Core That Sparks")
+    {TheZenProject.style.display = "inline";
+    body.style.background = "black";
+    TCTSText.style.color = "rgb(200, 50, 50)";
+    TCTSText.innerHTML = "Season 1";
+    FLTitle.style.borderRight = "0px";
+    FLTitle.style.paddingRight = "0px";
+    FLTitle.style.borderLeft = "0px";
+    FLTitle.style.paddingLeft = "0px";
+    FLTitle.style.left = "1.7%";
+    FLTitle.style.color = "white";
+    boxSep.style.width = "20.6%";
+    boxSep.style.borderBottom = "0px";
+    boxSep.style.borderRight = "1px solid white";
+    boxSep.style.borderLeft = "1px solid white";}
+})
+FLTitle.addEventListener("mouseover",
+function() {
+
+    if(TCTSText.innerHTML == "Season 1: The Core That Sparks")
+    {FLTitle.style.cursor = "pointer";
+    FLTitle.style.color = "rgb(150, 25, 25)";}
+})
+FLTitle.addEventListener("mouseout",
+function() {
+
+    if(TCTSText.innerHTML == "Season 1: The Core That Sparks")
+    {FLTitle.style.cursor = "default";
+    FLTitle.style.color = "rgb(200, 50, 50)";}
+    else
+    {FLTitle.style.cursor = "default";
+    FLTitle.style.color = "rgb(255, 255, 255)";}
 })
 
 TZPMix.addEventListener("click",
@@ -129,7 +195,7 @@ function() {
 
     eventTimer.innerHTML = "See you soon.. :)";
 
-    if(TZPMix.style.fontSize = "24px")
+    if(mobileFix.innerHTML == "Desktop")
     {let SYSTimer = 0;
     const SYSInterval = setInterval(SYSInt, 1000);
 
@@ -140,8 +206,8 @@ function() {
         {FLTitle.style.display = "inline";
         TCTSText.style.display = "inline";
         eventTimer.style.display = 'none';
-        boxSep.style.display = "inline";
         TZPMix.style.display = "inline";
+        boxSep.style.display = "inline";
 
         FLBackground.style.display = "inline";
         FLBackgroundMobile.style.display = "none";
@@ -149,8 +215,8 @@ function() {
         eventTimer.innerHTML = "0";
         clearInterval(SYSInterval);}
     }}
-
-    if(TZPMix.style.fontSize = "14px")
+    else
+    if(mobileFix.innerHTML == "Mobile")
     {let SYSTimer = 0;
     const SYSInterval = setInterval(SYSInt, 1000);
 
@@ -161,8 +227,8 @@ function() {
         {FLTitle.style.display = "inline";
         TCTSText.style.display = "inline";
         eventTimer.style.display = 'none';
-        boxSep.style.display = "inline";
         TZPMix.style.display = "inline";
+        boxSep.style.display = "inline";
 
         FLBackground.style.display = "none";
         FLBackgroundMobile.style.display = "inline";
@@ -175,13 +241,11 @@ TZPMix.addEventListener("mouseover",
 function() {
 
     TZPMix.style.cursor = "pointer";
-    TZPMix.style.borderBottom = "2px solid #0000FF";
-    TZPMix.style.opacity = "0.2";
+    TZPMix.style.opacity = "1";
 })
 TZPMix.addEventListener("mouseout",
 function() {
 
     TZPMix.style.cursor = "default";
-    TZPMix.style.borderBottom = "none";
-    TZPMix.style.opacity = "0.1";
+    TZPMix.style.opacity = "0";
 })
