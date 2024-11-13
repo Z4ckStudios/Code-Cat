@@ -7,19 +7,25 @@ var eventTimer = document.querySelector(".eventTimer");
 var homeButton = document.querySelector(".homeButton");
 var TZPDarken = document.querySelector(".TZPDarken");
 var FLBackground = document.querySelector(".FLBackground");
-var FLBackgroundMobile = document.querySelector(".FLBackgroundMobile");
 var TCTSText = document.querySelector(".TCTSText");
 var FLTitle = document.querySelector(".FLTitle");
 var TZPMix = document.querySelector(".TZPMix");
 var TheZenProject = document.querySelector(".TheZenProject");
 var boxSep = document.querySelector(".boxSep");
-var mobileFix = document.querySelector(".mobileFix");
 
-if(TZPMix.style.fontSize == "24px")
-{mobileFix.innerHTML = "Desktop"}
+var DeviceRatio = localStorage.getItem("DeviceRatio");
+
+if(window.innerWidth >= "1000")
+{localStorage.setItem("DeviceRatio", "Desktop");}
 else
-if(TZPMix.style.fontSize == "14px")
-{mobileFix.innerHTML = "Mobile"}
+if(window.innerWidth <= "1000")
+{localStorage.setItem("DeviceRatio", "Mobile");}
+
+if(DeviceRatio == "Desktop")
+{body.style.background = "blue";}
+else
+if(DeviceRatio == "Mobile")
+{body.style.background = "red";}
 
 const countdownInterval = setInterval(countdownTimer, 1000);
 
@@ -113,16 +119,13 @@ function() {
 
     if(TCTSText.innerHTML == "Season 1")
     {TheZenProject.style.display = "none";
-    FLTitle.style.borderRight = "1px solid white";
-    FLTitle.style.paddingRight = "16px";
-    FLTitle.style.borderLeft = "1px solid white";
-    FLTitle.style.paddingLeft = "17px";
-    FLTitle.style.left = "0.49%";
     FLTitle.style.color = "rgb(200, 50, 50)";
     TCTSText.innerHTML = "Season 1: The Core That Sparks";
+    TCTSText.style.left = "45.77%";
     TCTSText.style.color = "white";
     body.style.background = "#222222";
     boxSep.style.width = "99%";
+    boxSep.style.left = "50%";
     boxSep.style.borderBottom = "1px solid #FFFFFF";
     boxSep.style.borderRight = "0px";
     boxSep.style.borderLeft = "0px";}
@@ -148,7 +151,20 @@ function() {
 FLTitle.addEventListener("click",
 function() {
 
-    if(TCTSText.innerHTML == "Season 1: The Core That Sparks")
+    if(TCTSText.innerHTML == "Season 1: The Core That Sparks" && DeviceRatio == "Desktop")
+    {TheZenProject.style.display = "inline";
+    body.style.background = "black";
+    TCTSText.style.color = "rgb(200, 50, 50)";
+    TCTSText.innerHTML = "Season 1";
+    TCTSText.style.left = "28.5%";
+    FLTitle.style.left = "10.8%";
+    FLTitle.style.color = "white";
+    boxSep.style.width = "20.6%";
+    boxSep.style.borderBottom = "0px";
+    boxSep.style.borderRight = "1px solid white";
+    boxSep.style.borderLeft = "1px solid white";}
+    else
+    if(TCTSText.innerHTML == "Season 1: The Core That Sparks" && DeviceRatio == "Mobile")
     {TheZenProject.style.display = "inline";
     body.style.background = "black";
     TCTSText.style.color = "rgb(200, 50, 50)";
@@ -157,9 +173,9 @@ function() {
     FLTitle.style.paddingRight = "0px";
     FLTitle.style.borderLeft = "0px";
     FLTitle.style.paddingLeft = "0px";
-    FLTitle.style.left = "1.7%";
+    FLTitle.style.left = "100%";
     FLTitle.style.color = "white";
-    boxSep.style.width = "20.6%";
+    boxSep.style.width = "20%";
     boxSep.style.borderBottom = "0px";
     boxSep.style.borderRight = "1px solid white";
     boxSep.style.borderLeft = "1px solid white";}
@@ -189,14 +205,12 @@ function() {
     TCTSText.style.display = "none";
     eventTimer.style.display = 'inline';
     FLBackground.style.display = "none";
-    FLBackgroundMobile.style.display = "none";
     boxSep.style.display = "none";
     TZPMix.style.display = "none";
 
     eventTimer.innerHTML = "See you soon.. :)";
 
-    if(mobileFix.innerHTML == "Desktop")
-    {let SYSTimer = 0;
+    let SYSTimer = 0;
     const SYSInterval = setInterval(SYSInt, 1000);
 
     function SYSInt() {
@@ -210,32 +224,10 @@ function() {
         boxSep.style.display = "inline";
 
         FLBackground.style.display = "inline";
-        FLBackgroundMobile.style.display = "none";
 
         eventTimer.innerHTML = "0";
         clearInterval(SYSInterval);}
-    }}
-    else
-    if(mobileFix.innerHTML == "Mobile")
-    {let SYSTimer = 0;
-    const SYSInterval = setInterval(SYSInt, 1000);
-
-    function SYSInt() {
-        SYSTimer++
-
-        if(SYSTimer > 1)
-        {FLTitle.style.display = "inline";
-        TCTSText.style.display = "inline";
-        eventTimer.style.display = 'none';
-        TZPMix.style.display = "inline";
-        boxSep.style.display = "inline";
-
-        FLBackground.style.display = "none";
-        FLBackgroundMobile.style.display = "inline";
-
-        eventTimer.innerHTML = "0";
-        clearInterval(SYSInterval);}
-    }}
+    }
 })
 TZPMix.addEventListener("mouseover",
 function() {
