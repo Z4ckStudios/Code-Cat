@@ -78,12 +78,10 @@ function countdownTimer(){
     `${seconds}s`;}
 
     if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
-    {eventTimer.style.color = "#FF0000";
-    eventTimer.innerHTML = "~ Forbidden Entry ~";
-    }
+    {eventTimer.style.color = "#FF0000";}
 
-    // if(currentTime > new Date(`October 31, 2024 22:00:00`))
-    // {eventTimer.innerHTML = "0"
+    if(currentTime > new Date(`October 31, 2024 22:00:00`))
+    {eventTimer.innerHTML = "~ Forbidden Entry ~";
     // eventTimer.style.display = 'none';
     // body.style.background = "black";
     // TZPDarken.style.display = "none";
@@ -91,8 +89,7 @@ function countdownTimer(){
     // FLTitle.style.display = "inline";
     // TCTSText.style.display = "inline";
     // boxSep.style.display = "inline";
-    clearInterval(countdownInterval);
-    // }
+    clearInterval(countdownInterval);}
 }
 
 homeButton.addEventListener("click",
