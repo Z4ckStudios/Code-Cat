@@ -66,8 +66,9 @@ body
 .homeButton
 {
     position: absolute;
-    top: -0.5%;
-    left: 1.2%;
+    top: 91%;
+    left: 7.5%;
+    transform: translate(-50%, -50%);
     color: white;
     border-radius: 10px;
     font-size: 24px;
@@ -118,7 +119,8 @@ body
         display: none;
     }
     .homeButton {
-        top: -1%;
+        top: 90%;
+        left: 6.75%;
         font-size: 12px;
         padding: 10px;
     }
