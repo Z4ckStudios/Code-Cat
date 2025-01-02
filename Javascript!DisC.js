@@ -6,10 +6,24 @@ var body = document.querySelector("body");
 var eventTimer = document.querySelector(".eventTimer");
 var homeButton = document.querySelector(".homeButton");
 
+var DeviceRatio = localStorage.getItem("DeviceRatio");
+
+if(window.innerWidth >= "1000")
+{localStorage.setItem("DeviceRatio", "Desktop");}
+else
+if(window.innerWidth <= "1000")
+{localStorage.setItem("DeviceRatio", "Mobile");}
+
+if(DeviceRatio == "Desktop")
+{body.style.background = "blue";}
+else
+if(DeviceRatio == "Mobile")
+{body.style.background = "red";}
+
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
-    const time = new Date(`November 30, 2024 00:00:00`);
+    const time = new Date(`Febuary 1, 2025 00:00:00`);
     const currentTime = new Date();
 
     const difference = time - currentTime;
@@ -59,11 +73,11 @@ function countdownTimer(){
     if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
     {eventTimer.style.color = "#FF0000";}
 
-    if(currentTime > new Date(`November 30, 2024 00:00:00`))
-    {eventTimer.innerHTML = "0"
-    eventTimer.style.display = 'none';
-    body.style.background = "#FF0000"
-    clearInterval(countdownInterval);}
+    // if(currentTime > new Date(`Febuary 1, 2025 00:00:00`))
+    // {eventTimer.innerHTML = "0"
+    // eventTimer.style.display = 'none';
+    clearInterval(countdownInterval);
+    // }
 }
 
 homeButton.addEventListener("click",
