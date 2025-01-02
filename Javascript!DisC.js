@@ -15,10 +15,10 @@ if(window.innerWidth <= "1000")
 {localStorage.setItem("DeviceRatio", "Mobile");}
 
 if(DeviceRatio == "Desktop")
-{body.style.background = "blue";}
+{body.style.background = "red";}
 else
 if(DeviceRatio == "Mobile")
-{body.style.background = "red";}
+{body.style.background = "blue";}
 
 const countdownInterval = setInterval(countdownTimer, 1000);
 
