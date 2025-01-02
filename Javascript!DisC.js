@@ -14,10 +14,10 @@ else
 if(window.innerWidth <= "1000")
 {localStorage.setItem("DeviceRatio", "Mobile");}
 
-if(DeviceRatio == "Desktop")
+if(DeviceRatio == "Desktop" && eventTimer.innerHTML == "0")
 {body.style.background = "red";}
 else
-if(DeviceRatio == "Mobile")
+if(DeviceRatio == "Mobile" && eventTimer.innerHTML == "0")
 {body.style.background = "blue";}
 
 const countdownInterval = setInterval(countdownTimer, 1000);
@@ -73,11 +73,10 @@ function countdownTimer(){
     if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
     {eventTimer.style.color = "#FF0000";}
 
-    // if(currentTime > new Date(`Febuary 1, 2025 00:00:00`))
-    // {eventTimer.innerHTML = "0"
-    // eventTimer.style.display = 'none';
-    clearInterval(countdownInterval);
-    // }
+    if(currentTime > new Date(`Febuary 1, 2025 00:00:00`))
+    {eventTimer.innerHTML = "0"
+    eventTimer.style.display = 'none';
+    clearInterval(countdownInterval);}
 }
 
 homeButton.addEventListener("click",
