@@ -1,7 +1,6 @@
 body
 {
     background: rgb(0, 0, 100) image-set("DisCLogo.png") no-repeat;
-    background-position-y: 50%;
     background-position-x: 50%;
     background-size: 100%;
     padding: 0;
