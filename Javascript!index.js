@@ -39,16 +39,6 @@ var pageSwitcher = document.querySelector(".pageSwitcher");
 var CurrentSwitcher = localStorage.getItem("CurrentSwitcher");
 var Pages = localStorage.getItem("Pages");
 
-var TwitterOuter = TwitterLogo.outerHTML;
-var YoutubeOuter = YoutubeLogo.outerHTML;
-var TwitchOuter = TwitchLogo.outerHTML;
-var DiscordOuter = DiscordLogo.outerHTML;
-
-TwitterB.innerHTML = TwitterOuter + "Twitter";
-YTB.innerHTML = YoutubeOuter + "Youtube";
-TwitchB.innerHTML = TwitchOuter + "Twitch";
-DiscordB.innerHTML = DiscordOuter + "Discord";
-
 if(CurrentSwitcher == null, "pageSwitcher")
 {pageSwitcher.style.display = "inline";
 dockSwitcher.style.display = "none";
