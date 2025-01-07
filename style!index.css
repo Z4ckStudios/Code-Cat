@@ -696,45 +696,37 @@ body
         font-size: 10px;
         border-radius: 5px;
     }
+    .pagesWrapper {
+        position: absolute;
+        top: 1%;
+        left: 28%;
+        background: transparent;
+        font-family: Times;
+    }
     .Page1 {
-        left: -80%;
-        width: 77%;
         height: 3%;
         padding: 5px;
         font-size: 10px;
-        border-radius: 5px;
     }
     .Page2 {
-        left: 30%;
-        width: 77%;
         height: 3%;
         padding: 5px;
         font-size: 10px;
-        border-radius: 5px;
     }
     .Page3 {
-        left: 140%;
-        width: 77%;
         height: 3%;
         padding: 5px;
         font-size: 10px;
-        border-radius: 5px;
     }
     .Page4 {
-        left: 250%;
-        width: 77%;
         height: 3%;
         padding: 5px;
         font-size: 10px;
-        border-radius: 5px;
     }
     .Page5 {
-        left: 360%;
-        width: 77%;
         height: 3%;
         padding: 5px;
         font-size: 10px;
-        border-radius: 5px;
     }
     .CSMPanelB {
         left: 28%;
@@ -793,11 +785,10 @@ body
         line-height: 24px;
     }
     .TwitterBCover {
-        margin-top: 5%;
         height: 11%;
     }
     .TwitterLogo {
-        top: 21.25%;
+        top: 20.5%;
     }
     .YTB {
         margin-top: 12.5%;
@@ -805,11 +796,10 @@ body
         line-height: 24px;
     }
     .YTBCover {
-        margin-top: 12.5%;
         height: 11%;
     }
     .YoutubeLogo {
-        top: 40%;
+        top: 39%;
     }
     .TwitchB {
         margin-top: 12.5%;
@@ -817,11 +807,10 @@ body
         line-height: 24px;
     }
     .TwitchBCover {
-        margin-top: 12.5%;
         height: 11%;
     }
     .TwitchLogo {
-        top: 56.9%;
+        top: 57.25%;
     }
     .DiscordB {
         margin-top: 12.5%;
@@ -829,11 +818,10 @@ body
         line-height: 24px;
     }
     .DiscordBCover {
-        margin-top: 12.5%;
         height: 11%;
     }
     .DiscordLogo {
-        top: 78.9%;
+        top: 75.5%;
     }
     .ZSChangelog
     {
