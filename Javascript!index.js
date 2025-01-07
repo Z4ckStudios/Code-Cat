@@ -435,7 +435,7 @@ function() {
 document.querySelector(".DiscordBCover").addEventListener("click",
 function() {
 
-    window.open("https://discord.gg/KZsgcdra3c");
+    window.open("https://discord.gg/37uZ7ty9qW");
 })
 document.querySelector(".DiscordBCover").addEventListener("mouseover",
 function() {

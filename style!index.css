@@ -1,8 +1,9 @@
 body
 {
-    background: rgb(0, 0, 0);
+    background: black;
     padding: 0;
     overflow: hidden;
+    user-select: none;
 }
 .wrapper
 {

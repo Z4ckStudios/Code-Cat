@@ -1,12 +1,11 @@
 body
 {
-    background: rgb(0, 0, 100) image-set("DisCLogo.png");
-    alt: "Ph4nt0mZStudios - Disturbed Connections Countdown";
-    background-repeat: repeat;
-    background-position-y: 58.5%;
-    background-position-x: 48%;
-    background-size: 500%;
+    background: rgb(0, 0, 100) image-set("DisCLogo.png") no-repeat;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 100%;
     padding: 0;
+    user-select: none;
     overflow: hidden;
 }
 .DisCDarken
