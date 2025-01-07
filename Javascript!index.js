@@ -89,6 +89,25 @@ if(ZSCStatus == null, "Open")
 CChangelogB.style.display = "inline";
 OChangelogB.style.display = "none";}}
 
+if(Page1.id == "")
+{Page1.style.display = "none";}
+else
+{Page1.innerHTML = "CS - Coundown";}
+
+if(Page2.id == "")
+{Page2.style.display = "none";}
+else
+{Page2.innerHTML = "FL - Main Panel";}
+
+if(Page3.id == "")
+{Page3.style.display = "none";}
+
+if(Page4.id == "")
+{Page4.style.display = "none";}
+
+if(Page5.id == "")
+{Page5.style.display = "none";}
+
 document.querySelector(".pageSwitcher").addEventListener("click",
 function() {
 
