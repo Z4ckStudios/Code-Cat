@@ -1,16 +1,13 @@
-body
-{
+body {
     background: black;
     padding: 0;
     overflow: hidden;
     user-select: none;
 }
-.wrapper
-{
+.wrapper {
     width: 100%;
 }
-.LinksWrapper
-{
+.LinksWrapper {
     position: absolute;
     top: 36.65%;
     left: 0.5%;
@@ -29,8 +26,7 @@ body
     transition: all;
     transition-duration: 0.5s;
 }
-.TwitterB
-{
+.TwitterB {
     margin-top: 13.75%;
     margin-left: 10%;
     height: 10.5%;
@@ -46,8 +42,7 @@ body
     transition: all;
     transition-duration: 0.25s;
 }
-.TwitterBCover
-{
+.TwitterBCover {
     position: absolute;
     margin-top: -28.25%;
     left: 10%;
@@ -57,8 +52,7 @@ body
     background: white;
     opacity: 0;
 }
-.YTB
-{
+.YTB {
     margin-top: 13.75%;
     margin-left: 10%;
     height: 10.5%;
@@ -74,8 +68,7 @@ body
     transition: all;
     transition-duration: 0.25s;
 }
-.YTBCover
-{
+.YTBCover {
     position: absolute;
     margin-top: -28.25%;
     left: 10%;
@@ -85,8 +78,7 @@ body
     background: white;
     opacity: 0;
 }
-.TwitchB
-{
+.TwitchB {
     margin-top: 13.75%;
     margin-left: 10%;
     height: 10.5%;
@@ -102,8 +94,7 @@ body
     transition: all;
     transition-duration: 0.25s;
 }
-.TwitchBCover
-{
+.TwitchBCover {
     position: absolute;
     margin-top: -28.25%;
     left: 10%;
@@ -113,8 +104,7 @@ body
     background: white;
     opacity: 0;
 }
-.DiscordB
-{
+.DiscordB {
     margin-top: 13.75%;
     margin-left: 10%;
     left: 10%;
@@ -131,8 +121,7 @@ body
     transition: all;
     transition-duration: 0.25s;
 }
-.DiscordBCover
-{
+.DiscordBCover {
     position: absolute;
     margin-top: -28.25%;
     left: 10%;
@@ -142,8 +131,7 @@ body
     background: black;
     opacity: 0;
 }
-.MainTitle
-{
+.MainTitle {
     position: absolute;
     top: 1%;
     border-left: 2px solid rgb(75, 75, 75);
@@ -154,8 +142,7 @@ body
     font-size: 50px;
     font-family: Times;
 }
-.TitleUnderline
-{
+.TitleUnderline {
     position: absolute;
     top: 8%;
     left: 0.5%;
@@ -163,22 +150,19 @@ body
     height: 0.25%;
     background: rgb(75, 75, 75);
 }
-.SubtitlesTop
-{
+.SubtitlesTop {
     position: absolute;
     top: 13%;
     color: rgb(255, 255, 255);
     font-family: Arial;
 }
-.SubtitlesBottom
-{
+.SubtitlesBottom {
     position: absolute;
     top: 15.7%;
     color: rgb(255, 255, 255);
     font-family: Arial;
 }
-.ZSChangelog
-{
+.ZSChangelog {
     position: absolute;
     top: 55%;
     left: 83.5%;
@@ -200,29 +184,24 @@ body
     transition: all;
     transition-duration: 0.5s;
 }
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
     background: rgb(15, 15, 15);
 }
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
     background: rgb(25, 25, 25);
 }
-::-webkit-scrollbar-thumb:hover
-{
+::-webkit-scrollbar-thumb:hover {
     background: rgb(20, 20, 20);
     cursor: pointer;
 }
-.pagesWrapper
-{
+.pagesWrapper {
     position: absolute;
     top: 3.3%;
     left: 31.5%;
     background: transparent;
     font-family: Times;
 }
-.Page1
-{
+.Page1 {
     position: relative;
     background: transparent;
     font-size: 20px;
@@ -235,8 +214,7 @@ body
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
-.Page2
-{
+.Page2 {
     position: relative;
     background: transparent;
     font-size: 20px;
@@ -249,8 +227,7 @@ body
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
-.Page3
-{
+.Page3 {
     position: relative;
     background: transparent;
     font-size: 20px;
@@ -263,8 +240,7 @@ body
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
-.Page4
-{
+.Page4 {
     position: relative;
     background: transparent;
     font-size: 20px;
@@ -277,8 +253,7 @@ body
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
-.Page5
-{
+.Page5 {
     position: relative;
     background: transparent;
     font-size: 20px;
@@ -291,8 +266,7 @@ body
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
-.dockSwitcher
-{
+.dockSwitcher {
     position: absolute;
     top: -1.7%;
     left: 23.7%;
@@ -307,8 +281,7 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.pageSwitcher
-{
+.pageSwitcher {
     position: absolute;
     top: -1.7%;
     left: 23.7%;
@@ -322,8 +295,7 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.CSMPanelB
-{
+.CSMPanelB {
     position: absolute;
     top: -1.7%;
     left: 31.9%;
@@ -338,8 +310,7 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.OSMPanelB
-{
+.OSMPanelB {
     position: absolute;
     top: -1.7%;
     left: 31.9%;
@@ -354,8 +325,7 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.CChangelogB
-{
+.CChangelogB {
     position: absolute;
     top: -1.7%;
     left: 65.9%;
@@ -370,8 +340,7 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.OChangelogB
-{
+.OChangelogB {
     position: absolute;
     top: -1.7%;
     left: 65.9%;
@@ -386,16 +355,14 @@ body
     opacity: 0.5;
     font-family: Times;
 }
-.Z4ckStudiosLED
-{
+.Z4ckStudiosLED {
     position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
     height: 100%;
 }
-.PHLightenBackground
-{
+.PHLightenBackground {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -406,216 +373,163 @@ body
     display: none;
     overflow: hidden;
 }
-.C1
-{
+.C1 {
     font-size: 18px;
 }
-.C2
-{
+.C2 {
     font-size: 18px;
 }
-.C3
-{
+.C3 {
     font-size: 18px;
 }
-.C4
-{
+.C4 {
     font-size: 18px;
 }
-.C5
-{
+.C5 {
     font-size: 18px;
 }
-.C6
-{
+.C6 {
     font-size: 18px;
 }
-.C7
-{
+.C7 {
     font-size: 18px;
 }
-.C8
-{
+.C8 {
     font-size: 18px;
 }
-.C9
-{
+.C9 {
     font-size: 18px;
 }
-.C10
-{
+.C10 {
     font-size: 18px;
 }
-.C11
-{
+.C11 {
     font-size: 18px;
 }
-.C12
-{
+.C12 {
     font-size: 18px;
 }
-.C13
-{
+.C13 {
     font-size: 18px;
 }
-.C14
-{
+.C14 {
     font-size: 18px;
 }
-.C15
-{
+.C15 {
     font-size: 18px;
 }
-.C16
-{
+.C16 {
     font-size: 18px;
 }
-.C17
-{
+.C17 {
     font-size: 18px;
 }
-.C18
-{
+.C18 {
     font-size: 18px;
 }
-.C19
-{
+.C19 {
     font-size: 18px;
 }
-.C20
-{
+.C20 {
     font-size: 18px;
 }
-.C21
-{
+.C21 {
     font-size: 18px;
 }
-.C22
-{
+.C22 {
     font-size: 18px;
 }
-.C23
-{
+.C23 {
     font-size: 18px;
 }
-.C24
-{
+.C24 {
     font-size: 18px;
 }
-.C25
-{
+.C25 {
     font-size: 18px;
 }
-.C26
-{
+.C26 {
     font-size: 18px;
 }
-.C27
-{
+.C27 {
     font-size: 18px;
 }
-.C28
-{
+.C28 {
     font-size: 18px;
 }
-.C29
-{
+.C29 {
     font-size: 18px;
 }
-.C30
-{
+.C30 {
     font-size: 18px;
 }
-.C31
-{
+.C31 {
     font-size: 18px;
 }
-.C32
-{
+.C32 {
     font-size: 18px;
 }
-.C33
-{
+.C33 {
     font-size: 18px;
 }
-.C34
-{
+.C34 {
     font-size: 18px;
 }
-.C35
-{
+.C35 {
     font-size: 18px;
 }
-.C36
-{
+.C36 {
     font-size: 18px;
 }
-.C37
-{
+.C37 {
     font-size: 18px;
 }
-.C38
-{
+.C38 {
     font-size: 18px;
 }
-.C39
-{
+.C39 {
     font-size: 18px;
 }
-.C40
-{
+.C40 {
     font-size: 18px;
 }
-.C41
-{
+.C41 {
     font-size: 18px;
 }
-.C42
-{
+.C42 {
     font-size: 18px;
 }
-.C43
-{
+.C43 {
     font-size: 18px;
 }
-.C44
-{
+.C44 {
     font-size: 18px;
 }
-.C45
-{
+.C45 {
     font-size: 18px;
 }
-.C46
-{
+.C46 {
     font-size: 18px;
 }
-.C47
-{
+.C47 {
     font-size: 18px;
 }
-.C48
-{
+.C48 {
     font-size: 18px;
 }
-.C49
-{
+.C49 {
     font-size: 18px;
 }
-.C50
-{
+.C50 {
     font-size: 18px;
 }
-.C51
-{
+.C51 {
     font-size: 18px;
 }
-.portraitInformative
-{
+.portraitInformative {
     display: none;
 }
-.POIBackground
-{
+.POIBackground {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -624,8 +538,7 @@ body
     height: 106%;
     background: linear-gradient(black, rgb(50, 0, 0), black, black, rgb(0, 0, 50), black);
 }
-.portraitInformative li
-{
+.portraitInformative li {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -637,9 +550,40 @@ body
     width: 80%;
     text-align: center;
 }
-.wrapper
-{
+.wrapper {
     display: inline;
+}
+.ZSACLink {
+    position: absolute;
+    top: 85%;
+    left: 91.5%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: 5%;
+    background: white;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: Times;
+    border-radius: 5px;
+    border: 2px solid red;
+    display: none;
+}
+.ZSIPortfolio {
+    position: absolute;
+    top: 92.5%;
+    left: 91.5%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: 5%;
+    background: white;
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: Times;
+    border-radius: 5px;
+    border: 2px solid red;
+    display: none;
 }
 @media only screen and (max-width: 900px) {
     .wrapper {
@@ -804,8 +748,7 @@ body
     .DiscordBCover {
         height: 11%;
     }
-    .ZSChangelog
-    {
+    .ZSChangelog {
         top: 60%;
         margin-left: 4%;
         background: rgb(30, 30, 30);
@@ -816,208 +759,157 @@ body
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
     }
-    .C1
-    {
+    .C1 {
         font-size: 10px;
     }
-    .C2
-    {
+    .C2 {
         font-size: 10px;
     }
-    .C3
-    {
+    .C3 {
         font-size: 10px;
     }
-    .C4
-    {
+    .C4 {
         font-size: 10px;
     }
-    .C5
-    {
+    .C5 {
         font-size: 10px;
     }
-    .C6
-    {
+    .C6 {
         font-size: 10px;
     }
-    .C7
-    {
+    .C7 {
         font-size: 10px;
     }
-    .C8
-    {
+    .C8 {
         font-size: 10px;
     }
-    .C9
-    {
+    .C9 {
         font-size: 10px;
     }
-    .C10
-    {
+    .C10 {
         font-size: 10px;
     }
-    .C11
-    {
+    .C11 {
         font-size: 10px;
     }
-    .C12
-    {
+    .C12 {
         font-size: 10px;
     }
-    .C13
-    {
+    .C13 {
         font-size: 10px;
     }
-    .C14
-    {
+    .C14 {
         font-size: 10px;
     }
-    .C15
-    {
+    .C15 {
         font-size: 10px;
     }
-    .C16
-    {
+    .C16 {
         font-size: 10px;
     }
-    .C17
-    {
+    .C17 {
         font-size: 10px;
     }
-    .C18
-    {
+    .C18 {
         font-size: 10px;
     }
-    .C19
-    {
+    .C19 {
         font-size: 10px;
     }
-    .C20
-    {
+    .C20 {
         font-size: 10px;
     }
-    .C21
-    {
+    .C21 {
         font-size: 10px;
     }
-    .C22
-    {
+    .C22 {
         font-size: 10px;
     }
-    .C23
-    {
+    .C23 {
         font-size: 10px;
     }
-    .C24
-    {
+    .C24 {
         font-size: 10px;
     }
-    .C25
-    {
+    .C25 {
         font-size: 10px;
     }
-    .C26
-    {
+    .C26 {
         font-size: 10px;
     }
-    .C27
-    {
+    .C27 {
         font-size: 10px;
     }
-    .C28
-    {
+    .C28 {
         font-size: 10px;
     }
-    .C29
-    {
+    .C29 {
         font-size: 10px;
     }
-    .C30
-    {
+    .C30 {
         font-size: 10px;
     }
-    .C31
-    {
+    .C31 {
         font-size: 10px;
     }
-    .C32
-    {
+    .C32 {
         font-size: 10px;
     }
-    .C33
-    {
+    .C33 {
         font-size: 10px;
     }
-    .C34
-    {
+    .C34 {
         font-size: 10px;
     }
-    .C35
-    {
+    .C35 {
         font-size: 10px;
     }
-    .C36
-    {
+    .C36 {
         font-size: 10px;
     }
-    .C37
-    {
+    .C37 {
         font-size: 10px;
     }
-    .C38
-    {
+    .C38 {
         font-size: 10px;
     }
-    .C39
-    {
+    .C39 {
         font-size: 10px;
     }
-    .C40
-    {
+    .C40 {
         font-size: 10px;
     }
-    .C41
-    {
+    .C41 {
         font-size: 10px;
     }
-    .C42
-    {
+    .C42 {
         font-size: 10px;
     }
-    .C43
-    {
+    .C43 {
         font-size: 10px;
     }
-    .C44
-    {
+    .C44 {
         font-size: 10px;
     }
-    .C45
-    {
+    .C45 {
         font-size: 10px;
     }
-    .C46
-    {
+    .C46 {
         font-size: 10px;
     }
-    .C47
-    {
+    .C47 {
         font-size: 10px;
     }
-    .C48
-    {
+    .C48 {
         font-size: 10px;
     }
-    .C49
-    {
+    .C49 {
         font-size: 10px;
     }
-    .C50
-    {
+    .C50 {
         font-size: 10px;
     }
-    .C51
-    {
+    .C51 {
         font-size: 10px;
     }
 }
