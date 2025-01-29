@@ -1,5 +1,5 @@
-//var url = "https://Z4ckStudios.com/CC";
-var url = "https://Z4ckStudios.github.io/Z4ckStudios/CC";
+//var url = "https://Z4ckStudios.com/CS";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/CS";
 window.history.replaceState(null, document.title, url);
 
 var body = document.querySelector("body");
