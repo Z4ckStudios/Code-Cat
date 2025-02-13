@@ -1,6 +1,6 @@
 // var url = "https://Z4ckStudios.com/";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
-window.history.replaceState(null, document.title, url);
+// window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
 var OSMPanelB = document.querySelector(".OSMPanelB");
@@ -44,6 +44,7 @@ var LWStatus = localStorage.getItem("LWStatus");
 var ZSCStatus = localStorage.getItem("ZSCStatus");
 var CurrentSwitcher = localStorage.getItem("CurrentSwitcher");
 var Pages = localStorage.getItem("Pages");
+var HostedIP = localStorage.getItem("HostedIP");
 
 if(CurrentSwitcher == null, "pageSwitcher")
 {pageSwitcher.style.display = "inline";
@@ -508,7 +509,9 @@ function() {
 DConsoleButton.addEventListener("click",
 function() {
 
-    if(location.hostname == "192.168.1.222")
+    //Preset CMD: localStorage.setItem("HostedIP", "192.168.1.222");
+
+    if(HostedIP == "192.168.1.222")
     {DConsoleText.innerHTML = "ACCESS GRANTED";
     DConsoleText.style.color = "rgb(0, 255, 0)";
     DConsoleButton.style.display = "none";
