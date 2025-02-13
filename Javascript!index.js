@@ -545,3 +545,8 @@ function() {
     }
     }
 })
+DConsoleButton.addEventListener("mouseover",
+function() {
+
+    DConsoleButton.style.cursor = "pointer";
+})
