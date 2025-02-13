@@ -508,7 +508,7 @@ function() {
 DConsoleButton.addEventListener("click",
 function() {
 
-    if(location.hostname == "192.168.1.222" || "127.0.0.1")
+    if(location.hostname == "192.168.1.222")
     {DConsoleText.innerHTML = "ACCESS GRANTED";
     DConsoleText.style.color = "rgb(0, 255, 0)";
     DConsoleButton.style.display = "none";
