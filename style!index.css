@@ -644,4 +644,28 @@ body {
     .CWrapper {
         font-size: 10px;
     }
+    .ZSACLink {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .ZSIPortfolio {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .DConsoleIMG {
+        margin-top: -17.5px;
+        margin-left: 15px;
+        width: 12.5%;
+    }
+    .DConsoleText {
+        margin-top: -4px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .DConsoleButton {
+        margin-top: -10px;
+        margin-left: 15px;
+        width: 11%;
+        height: 27.5%;
+    }
 }

@@ -1,6 +1,6 @@
 // var url = "https://Z4ckStudios.com/";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
-// window.history.replaceState(null, document.title, url);
+window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
 var OSMPanelB = document.querySelector(".OSMPanelB");
