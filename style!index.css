@@ -1,181 +1,153 @@
 body {
     background: black;
     padding: 0;
-    overflow: hidden;
+    margin: 0;
     user-select: none;
+    overflow: hidden;
 }
 .wrapper {
     width: 100%;
 }
 .LinksWrapper {
     position: absolute;
-    top: 36.65%;
-    left: 0.5%;
-    background: rgb(10, 10, 10);
-    color: white;
-    width: 20%;
-    height: 62.5%;
-    border: none;
-    text-wrap: nowrap;
+    bottom: 0px;
+    left: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
+    color: white;
+    width: 15%;
+    height: 42.5%;
+    padding: 25px;
     border-radius: 10px;
-    line-height: 75px;
-    font-family: Times;
-
-    transition: all;
-    transition-duration: 0.5s;
+    background: rgb(20, 20, 20);
 }
 .TwitterB {
-    margin-top: 13.75%;
-    margin-left: 10%;
-    height: 10.5%;
-    width: 80%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: Times;
+    color: white;
     border-radius: 10px;
     text-indent: 25%;
+    font-size: 15px;
+    height: 40px;
+    align-content: center;
     background: rgb(0, 0, 150) image-set("ZS-Images/TwitterLogo.png") no-repeat;
     background-size: 25%;
     background-position-y: 50%;
     background-position-x: 15%;
-    line-height: 52.5px;
 
     transition: all;
     transition-duration: 0.25s;
 }
-.TwitterBCover {
-    position: absolute;
-    margin-top: -28.25%;
-    left: 10%;
-    height: 10.5%;
-    width: 80%;
-    border-radius: 10px;
-    background: white;
-    opacity: 0;
-}
 .YTB {
-    margin-top: 13.75%;
-    margin-left: 10%;
-    height: 10.5%;
-    width: 80%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: Times;
+    color: white;
     border-radius: 10px;
     text-indent: 25%;
+    font-size: 15px;
+    height: 40px;
+    align-content: center;
     background: rgb(150, 0, 0) image-set("ZS-Images/YoutubeLogo.png") no-repeat;
     background-size: 25%;
     background-position-y: 50%;
     background-position-x: 15%;
-    line-height: 52.5px;
 
     transition: all;
     transition-duration: 0.25s;
 }
-.YTBCover {
-    position: absolute;
-    margin-top: -28.25%;
-    left: 10%;
-    height: 10.5%;
-    width: 80%;
-    border-radius: 10px;
-    background: white;
-    opacity: 0;
-}
 .TwitchB {
-    margin-top: 13.75%;
-    margin-left: 10%;
-    height: 10.5%;
-    width: 80%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: Times;
+    color: white;
     border-radius: 10px;
     text-indent: 25%;
+    font-size: 15px;
+    height: 40px;
+    align-content: center;
     background: rgb(75, 0, 100) image-set("ZS-Images/TwitchLogo.png") no-repeat;
     background-size: 35%;
     background-position-y: 50%;
     background-position-x: 12.5%;
-    line-height: 52.5px;
 
     transition: all;
     transition-duration: 0.25s;
 }
-.TwitchBCover {
-    position: absolute;
-    margin-top: -28.25%;
-    left: 10%;
-    height: 10.5%;
-    width: 80%;
-    border-radius: 10px;
-    background: white;
-    opacity: 0;
-}
 .DiscordB {
-    margin-top: 13.75%;
-    margin-left: 10%;
-    left: 10%;
-    height: 10.5%;
-    width: 80%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: Times;
+    color: white;
     border-radius: 10px;
     text-indent: 25%;
+    font-size: 15px;
+    height: 40px;
+    align-content: center;
     background: rgb(50, 50, 255) image-set("ZS-Images/DiscordLogo.png") no-repeat;
     background-size: 17.5%;
     background-position-y: 50%;
     background-position-x: 20%;
-    line-height: 52.5px;
 
     transition: all;
     transition-duration: 0.25s;
 }
-.DiscordBCover {
+.ZSTopSet {
     position: absolute;
-    margin-top: -28.25%;
-    left: 10%;
-    height: 10.5%;
-    width: 80%;
-    border-radius: 10px;
-    background: black;
-    opacity: 0;
+    top: 0px;
+    margin-top: 5px;
 }
 .MainTitle {
-    position: absolute;
-    top: 1%;
-    border-left: 2px solid rgb(75, 75, 75);
-    border-right: 2px solid rgb(75, 75, 75);
-    padding-left: 25px;
-    padding-right: 25px;
+    position: relative;
+    margin-left: 5px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
-    font-size: 50px;
     font-family: Times;
 }
 .TitleUnderline {
-    position: absolute;
-    top: 8%;
-    left: 0.5%;
-    width: 99%;
-    height: 0.25%;
-    background: rgb(75, 75, 75);
+    position: relative;
+    margin-top: 32.5px;
+    border-top: 2px solid rgb(75, 75, 75);
+}
+.Subtitles {
+    line-height: 5px;
 }
 .SubtitlesTop {
-    position: absolute;
-    top: 13%;
+    position: relative;
+    margin-left: 5px;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     font-family: Arial;
 }
 .SubtitlesBottom {
-    position: absolute;
-    top: 15.7%;
+    position: relative;
+    margin-left: 5px;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     font-family: Arial;
 }
 .ZSChangelog {
     position: absolute;
-    top: 55%;
-    left: 83.5%;
-    transform: translate(-50%, -50%);
-    background: rgb(10, 10, 10);
+    bottom: 0%;
+    right: 0%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: rgb(20, 20, 20);
     text-wrap: wrap;
     overflow: scroll;
     overflow-x: hidden;
-    width: 25%;
-    height: 75%;
+    font-size: 12px;
+    width: 20%;
+    height: 60%;
     padding: 25px;
     color: rgb(0, 255, 0);
-    font-size: 30px;
     line-height: 40px;
     text-align: center;
     border-radius: 10px;
@@ -195,161 +167,143 @@ body {
     cursor: pointer;
 }
 .pagesWrapper {
-    position: absolute;
-    top: 3.3%;
-    left: 31.5%;
+    position: relative;
     background: transparent;
     font-family: Times;
 }
 .Page1 {
     position: relative;
     background: transparent;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17.75px;
-    padding-bottom: 17.75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
 .Page2 {
     position: relative;
     background: transparent;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17.75px;
-    padding-bottom: 17.75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
 .Page3 {
     position: relative;
     background: transparent;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17.75px;
-    padding-bottom: 17.75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
 .Page4 {
     position: relative;
     background: transparent;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17.75px;
-    padding-bottom: 17.75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
 .Page5 {
     position: relative;
     background: transparent;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17.75px;
-    padding-bottom: 17.75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
     border-right: 2px solid rgb(75, 75, 75);
     border-left: 2px solid rgb(75, 75, 75);
 }
 .dockSwitcher {
-    position: absolute;
-    top: -1.7%;
-    left: 23.7%;
+    position: relative;
+    margin-left: 10px;
     background: transparent;
-    width: 4.5%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 20px;
     display: none;
     color: rgb(0, 255, 255);
     opacity: 0.5;
     font-family: Times;
 }
 .pageSwitcher {
-    position: absolute;
-    top: -1.7%;
-    left: 23.7%;
+    position: relative;
+    margin-left: 10px;
     background: rgb(15, 15, 15);
-    width: 4.5%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 20px;
     color: rgb(0, 255, 255);
     opacity: 0.5;
     font-family: Times;
 }
 .CSMPanelB {
-    position: absolute;
-    top: -1.7%;
-    left: 31.9%;
+    position: relative;
     background: rgb(15, 15, 15);
-    width: 30.25%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: left;
-    font-size: 20px;
     color: red;
     display: none;
     opacity: 0.5;
     font-family: Times;
 }
 .OSMPanelB {
-    position: absolute;
-    top: -1.7%;
-    left: 31.9%;
+    position: relative;
     background: rgb(15, 15, 15);
-    width: 30.25%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: left;
-    font-size: 20px;
     display: none;
     color: rgb(0, 255, 0);
     opacity: 0.5;
     font-family: Times;
 }
 .CChangelogB {
-    position: absolute;
-    top: -1.7%;
-    left: 65.9%;
+    position: relative;
     background: rgb(15, 15, 15);
-    width: 30.25%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: left;
-    font-size: 20px;
     color: red;
     display: none;
     opacity: 0.5;
     font-family: Times;
 }
 .OChangelogB {
-    position: absolute;
-    top: -1.7%;
-    left: 65.9%;
+    position: relative;
     background: rgb(15, 15, 15);
-    width: 30.25%;
-    padding: 20px;
-    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
     text-align: left;
-    font-size: 20px;
     color: rgb(0, 255, 0);
     display: none;
     opacity: 0.5;
@@ -357,29 +311,28 @@ body {
 }
 .Z4ckStudiosLED {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
 }
 .PHLightenBackground {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
     width: 100%;
-    height: 102.5%;
-    display: none;
-    overflow: hidden;
-}
-.CWrapper {
-    font-size: 18px;
+    height: 100%;
+    display: inline;
+    opacity: 0.025;
 }
 .portraitInformative {
     display: none;
 }
-.POIBackground {
+.POIBackground
+{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -388,7 +341,8 @@ body {
     height: 106%;
     background: linear-gradient(black, rgb(50, 0, 0), black, black, rgb(0, 0, 50), black);
 }
-.portraitInformative li {
+.portraitInformative li
+{
     position: absolute;
     top: 60%;
     left: 50%;
@@ -403,71 +357,61 @@ body {
 .wrapper {
     display: inline;
 }
-.DConsoleIMG {
+.DConDiv {
     position: absolute;
-    top: 88.25%;
-    left: 4.5%;
-    transform: translate(-50%, -50%);
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.DConsoleButton {
+    position: relative;
     background: none;
     display: none;
 }
 .DConsoleText {
-    position: absolute;
-    top: 97.25%;
-    left: 4.5%;
-    transform: translate(-50%, -50%);
+    position: relative;
     text-align: center;
-    font-size: 12px;
+    margin-left: 7.5px;
     font-family: Times;
+    font-size: 8px;
     color: white;
     display: none;
 }
-.DConsoleButton {
+.ZSRightSet {
     position: absolute;
-    top: 87.5%;
-    left: 4.5%;
-    transform: translate(-50%, -50%);
-    background: white;
-    opacity: 0;
-    width: 7.75%;
-    height: 17.5%;
-    display: none;
+    right: 0px;
+    top: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 .ZSACLink {
-    position: absolute;
-    top: 85%;
-    left: 91.5%;
-    transform: translate(-50%, -50%);
-    width: 15%;
-    height: 5%;
+    position: relative;
     background: none;
     color: white;
     align-content: center;
     text-align: center;
-    font-size: 24px;
+    padding: 5px;
     font-family: Times;
+    font-size: 10px;
     border-radius: 5px;
     border: 2px solid red;
     display: none;
 }
 .ZSIPortfolio {
-    position: absolute;
-    top: 92.5%;
-    left: 91.5%;
-    transform: translate(-50%, -50%);
-    width: 15%;
-    height: 5%;
+    position: relative;
     background: none;
     color: white;
     align-content: center;
     text-align: center;
-    font-size: 24px;
+    padding: 5px;
+    font-size: 10px;
     font-family: Times;
     border-radius: 5px;
     border: 2px solid blue;
     display: none;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
     .wrapper {
         display: none;
     }
@@ -475,197 +419,32 @@ body {
         display: inline;
     }
 }
-@media only screen and (max-height: 700px) {
-    .wrapper {
-        display: inline;
-    }
-    .portraitInformative {
-        display: none;
-    }
-    .MainTitle {
-        font-size: 18px;
-    }
-    .TitleUnderline {
-        top: 4%;
-    }
-    .Z4ckStudiosLED {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: white;
-    }
-    .PHLightenBackground {
-        display: inline;
-        opacity: 0.05;
-    }
-    .pageSwitcher {
-        left: 22%;
-        width: 3.5%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-        background: rgb(25, 25, 25);
-    }
-    .dockSwitcher {
-        left: 22%;
-        width: 3.5%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-    }
-    .pagesWrapper {
-        position: absolute;
-        top: 1%;
-        left: 28%;
-        background: transparent;
-        font-family: Times;
-    }
-    .Page1 {
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-    }
-    .Page2 {
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-    }
-    .Page3 {
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-    }
-    .Page4 {
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-    }
-    .Page5 {
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-    }
-    .CSMPanelB {
-        left: 28%;
-        width: 34%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-        background: rgb(25, 25, 25);
-    }
-    .OSMPanelB {
-        left: 28%;
-        width: 34%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-        background: rgb(25, 25, 25);
-    }
-    .CChangelogB {
-        left: 64%;
-        width: 34%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-        background: rgb(25, 25, 25);
-    }
-    .OChangelogB {
-        left: 64%;
-        width: 34%;
-        height: 3%;
-        padding: 5px;
-        font-size: 10px;
-        border-radius: 5px;
-        background: rgb(25, 25, 25);
-    }
-    .SubtitlesTop {
-        top: 12%;
-        font-size: 10px;
-    }
-    .SubtitlesBottom {
-        font-size: 10px;
+@media only screen and (max-height: 500px) {
+    .ZSChangelog {
+        width: 22.5%;
     }
     .LinksWrapper {
-        top: 31%;
-        width: 17.5%;
-        height: 67.5%;
-        background: rgb(30, 30, 30);
         font-size: 12px;
-        line-height: 40px;
+        height: 45%;
     }
     .TwitterB {
-        margin-top: 5%;
-        height: 11%;
-        line-height: 24px;
-    }
-    .TwitterBCover {
-        height: 11%;
+        font-size: 12px;
+        height: 15%;
     }
     .YTB {
-        margin-top: 12.5%;
-        height: 11%;
-        line-height: 24px;
-    }
-    .YTBCover {
-        height: 11%;
+        font-size: 12px;
+        height: 15%;
     }
     .TwitchB {
-        margin-top: 12.5%;
-        height: 11%;
-        line-height: 24px;
-    }
-    .TwitchBCover {
-        height: 11%;
+        font-size: 12px;
+        height: 15%;
     }
     .DiscordB {
-        margin-top: 12.5%;
-        height: 11%;
-        line-height: 24px;
-    }
-    .DiscordBCover {
-        height: 11%;
-    }
-    .ZSChangelog {
-        top: 60%;
-        margin-left: 4%;
-        background: rgb(30, 30, 30);
-        font-size: 11px;
-        height: 60%;
-        width: 17.5%;
-        line-height: 15px;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-    }
-    .CWrapper {
-        font-size: 10px;
-    }
-    .ZSACLink {
-        margin-top: 10px;
         font-size: 12px;
-    }
-    .ZSIPortfolio {
-        margin-top: 10px;
-        font-size: 12px;
-    }
-    .DConsoleIMG {
-        margin-top: -17.5px;
-        margin-left: 15px;
-        width: 12.5%;
+        height: 15%;
     }
     .DConsoleText {
-        margin-top: -4px;
-        margin-left: 15px;
-        font-size: 10px;
-    }
-    .DConsoleButton {
-        margin-top: -10px;
-        margin-left: 15px;
-        width: 11%;
-        height: 27.5%;
+        font-size: 6px;
+        margin-left: 5px;
     }
 }

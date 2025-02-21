@@ -1,6 +1,6 @@
 // var url = "https://Z4ckStudios.com/";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
-window.history.replaceState(null, document.title, url);
+// window.history.replaceState(null, document.title, url);
 
 var LinksWrapper = document.querySelector(".LinksWrapper");
 var OSMPanelB = document.querySelector(".OSMPanelB");
@@ -14,15 +14,6 @@ var TwitterB = document.querySelector(".TwitterB");
 var YTB = document.querySelector(".YTB");
 var TwitchB = document.querySelector(".TwitchB");
 var DiscordB = document.querySelector(".DiscordB");
-var TwitterBCover = document.querySelector(".TwitterBCover");
-var YTBCover = document.querySelector(".YTBCover");
-var TwitchBCover = document.querySelector(".TwitchBCover");
-var DiscordBCover = document.querySelector(".DiscordBCover");
-
-var TwitterLogo = document.querySelector(".TwitterLogo");
-var YoutubeLogo = document.querySelector(".YoutubeLogo");
-var TwitchLogo = document.querySelector(".TwitchLogo");
-var DiscordLogo = document.querySelector(".DiscordLogo");
 
 var pagesWrapper = document.querySelector(".pagesWrapper");
 var Page1 = document.querySelector(".Page1");
@@ -34,7 +25,6 @@ var Page5 = document.querySelector(".Page5");
 var dockSwitcher = document.querySelector(".dockSwitcher");
 var pageSwitcher = document.querySelector(".pageSwitcher");
 
-var DConsoleIMG = document.querySelector(".DConsoleIMG");
 var DConsoleText = document.querySelector(".DConsoleText");
 var DConsoleButton = document.querySelector(".DConsoleButton");
 var ZSACLink = document.querySelector(".ZSACLink");
@@ -65,7 +55,7 @@ ZSChangelog.style.display = "none";
 OChangelogB.style.display = "none";
 CChangelogB.style.display = "none";
 
-DConsoleIMG.style.display = "inline";
+DConsoleButton.style.display = "inline";
 DConsoleText.style.display = "inline";
 DConsoleButton.style.display = "inline";
 ZSACLink.style.display = "inline";
@@ -119,7 +109,7 @@ function() {
     pageSwitcher.style.display = "none";
     dockSwitcher.style.display = "inline";
 
-    DConsoleIMG.style.display = "none";
+    DConsoleButton.style.display = "none";
     DConsoleText.style.display = "none";
     DConsoleButton.style.display = "none";
     ZSACLink.style.display = "none";
@@ -394,80 +384,80 @@ function() {
     CChangelogB.style.background = "rgb(15, 15, 15)";
 })
 
-TwitterBCover.addEventListener("click",
+TwitterB.addEventListener("click",
 function() {
 
     window.open("https://twitter.com/Ph4nt0mZStudios");
 })
-TwitterBCover.addEventListener("mouseover",
+TwitterB.addEventListener("mouseover",
 function() {
 
-    TwitterB.style.width = "85%";
-    TwitterB.style.marginLeft = "7.25%";
-    TwitterBCover.style.cursor = "pointer";
+    TwitterB.style.width = "110%";
+    TwitterB.style.marginLeft = "-5%";
+    TwitterB.style.cursor = "pointer";
 })
-TwitterBCover.addEventListener("mouseout",
+TwitterB.addEventListener("mouseout",
 function() {
     
-    TwitterB.style.width = "80%";
-    TwitterB.style.marginLeft = "10%";
+    TwitterB.style.width = "100%";
+    TwitterB.style.marginLeft = "0%";
 })
 
-YTBCover.addEventListener("click",
+YTB.addEventListener("click",
 function() {
 
     window.open("https://youtube.com/@Ph4nt0mZStudios");
 })
-YTBCover.addEventListener("mouseover",
+YTB.addEventListener("mouseover",
 function() {
 
-    YTB.style.width = "85%";
-    YTB.style.marginLeft = "7.25%";
-    YTBCover.style.cursor = "pointer";
+    YTB.style.width = "110%";
+    YTB.style.marginLeft = "-5%";
+    YTB.style.cursor = "pointer";
 })
-YTBCover.addEventListener("mouseout",
+YTB.addEventListener("mouseout",
 function() {
     
-    YTB.style.width = "80%";
-    YTB.style.marginLeft = "10%";
+    YTB.style.width = "100%";
+    YTB.style.marginLeft = "0%";
 })
 
-TwitchBCover.addEventListener("click",
+TwitchB.addEventListener("click",
 function() {
 
     window.open("https://twitch.tv/Z4ckStudios");
 })
-TwitchBCover.addEventListener("mouseover",
+TwitchB.addEventListener("mouseover",
 function() {
 
-    TwitchB.style.width = "85%";
-    TwitchB.style.marginLeft = "7.25%";
-    TwitchBCover.style.cursor = "pointer";
+    TwitchB.style.width = "110%";
+    TwitchB.style.marginLeft = "-5%";
+    TwitchB.style.cursor = "pointer";
 })
-TwitchBCover.addEventListener("mouseout",
+TwitchB.addEventListener("mouseout",
 function() {
     
-    TwitchB.style.width = "80%";
-    TwitchB.style.marginLeft = "10%";
+    TwitchB.style.width = "100%";
+    TwitchB.style.marginLeft = "0%";
 })
 
-DiscordBCover.addEventListener("click",
+DiscordB.addEventListener("click",
 function() {
 
     window.open("https://discord.gg/37uZ7ty9qW");
 })
-DiscordBCover.addEventListener("mouseover",
+DiscordB.addEventListener("mouseover",
 function() {
 
-    DiscordB.style.width = "85%";
-    DiscordB.style.marginLeft = "7.25%";
-    DiscordBCover.style.cursor = "pointer";
+    DiscordB.style.width = "110%";
+    DiscordB.style.marginLeft = "-5%";
+    DiscordB.style.cursor = "pointer";
 })
-DiscordBCover.addEventListener("mouseout",
+DiscordB.addEventListener("mouseout",
 function() {
     
-    DiscordB.style.width = "80%";
-    DiscordB.style.marginLeft = "10%";
+    DiscordB.style.width = "100%";
+    DiscordB.style.marginLeft = "0%";
 })
 
 ZSACLink.addEventListener("click",

@@ -42,7 +42,7 @@ body
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 106%;
+    height: 100%;
     background: linear-gradient(black, rgb(50, 0, 0), black, black, rgb(0, 0, 50), black);
 }
 .portraitInformative li
@@ -65,13 +65,14 @@ body
 .homeButton
 {
     position: absolute;
-    top: 91%;
-    left: 7.5%;
-    transform: translate(-50%, -50%);
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
     color: white;
     border-radius: 10px;
-    font-size: 24px;
-    padding: 15px;
+    font-size: 12px;
+    padding: 10px;
     border: 2px solid white;
     background: transparent;
     font-family: Times;
@@ -133,7 +134,7 @@ body
     text-wrap: nowrap;
     opacity: 0;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
     body {
         background: black;
     }
@@ -147,7 +148,7 @@ body
         display: none;
     }
 }
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 500px) {
     body {
         background: image-set("ZS-Images/TZP.png") repeat;
         background-size: 50%;
@@ -167,12 +168,6 @@ body
     }
     .portraitInformative {
         display: none;
-    }
-    .homeButton {
-        top: 90%;
-        left: 6.75%;
-        font-size: 12px;
-        padding: 10px;
     }
     .TCTSText {
         top: 2.75%;
