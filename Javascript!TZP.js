@@ -1,6 +1,6 @@
 // var url = "https://Z4ckStudios.com/TZP";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/TZP";
-window.history.replaceState(null, document.title, url);
+// window.history.replaceState(null, document.title, url);
 
 var body = document.querySelector("body");
 var eventTimer = document.querySelector(".eventTimer");
@@ -12,6 +12,16 @@ var FLTitle = document.querySelector(".FLTitle");
 var TZPMix = document.querySelector(".TZPMix");
 var TheZenProject = document.querySelector(".TheZenProject");
 var boxSep = document.querySelector(".boxSep");
+var TZPPadlock = document.querySelector(".TZPPadlock");
+var CodeInput = document.querySelector(".CodeInput");
+var VerifyButton = document.querySelector(".VerifyButton");
+
+var Input2 = document.getElementById("Input2");
+var Input1 = document.getElementById("Input1");
+var Input3 = document.getElementById("Input3");
+
+var LockClick = new Audio();
+LockClick.src = "/ZS-Audio/ZS - Lock Click.mp3";
 
 var DeviceRatio = localStorage.getItem("DeviceRatio");
 
@@ -240,4 +250,187 @@ function() {
 
     TZPMix.style.cursor = "default";
     TZPMix.style.opacity = "0";
+})
+
+TZPPadlock.addEventListener("click",
+function() {
+
+    if(CodeInput.id == "notVisible")
+    {CodeInput.style.display = "inline";
+    eventTimer.style.marginTop = "-19%";
+    CodeInput.id = "visible";
+
+    LockClick.src = "/ZS-Audio/ZS - Lock Click.mp3";
+    LockClick.play();}
+    else
+    if(CodeInput.id == "visible")
+    {CodeInput.style.display = "none";
+    eventTimer.style.marginTop = "0%";
+    eventTimer.innerHTML = "~ Forbidden Entry ~";
+    eventTimer.style.fontSize = "50px";
+    CodeInput.id = "notVisible";
+    
+    LockClick.src = "/ZS-Audio/ZS - Lock Click.mp3";
+    LockClick.play();}
+})
+TZPPadlock.addEventListener("mouseover",
+function() {
+
+    TZPPadlock.style.cursor = "pointer";
+})
+
+Input2.addEventListener("click",
+function() {
+
+    Input2.innerHTML = "";
+    Input2.style.cursor = "pointer";
+})
+
+Input1.addEventListener("click",
+function() {
+
+    Input1.innerHTML = "";
+    Input1.style.cursor = "pointer";
+})
+
+Input3.addEventListener("click",
+function() {
+
+    Input3.innerHTML = "";
+    Input3.style.cursor = "pointer";
+})
+
+VerifyButton.addEventListener("click",
+function() {
+
+    if(Input2.innerHTML == "" &&
+    Input1.innerHTML == "" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "~ Forbidden Entry ~";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "kay" &&
+    Input1.innerHTML == "len" &&
+    Input3.innerHTML == "ski")
+    {eventTimer.innerHTML = "Free Them.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Ksalanskiy" &&
+    Input1.innerHTML == "=" &&
+    Input3.innerHTML == "Xâlãneí")
+    {eventTimer.innerHTML = "Importance.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "The" &&
+    Input1.innerHTML == "Zen" &&
+    Input3.innerHTML == "Project")
+    {eventTimer.innerHTML = "This project is currently being rebuilt, why'd you come back here?";
+    eventTimer.style.marginTop = "0%";
+    eventTimer.style.fontSize = "24px";
+    body.style.background = "black";
+    TZPDarken.style.display = "none";
+    TheZenProject.style.display = "inline";
+    CodeInput.style.display = "none";
+    TZPPadlock.style.display = "none";}
+
+    if(Input2.innerHTML == "Fallen" &&
+    Input1.innerHTML == "Lands" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "See you soon.. :)"
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Forbidden" &&
+    Input1.innerHTML == "Entry" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "Forbid - To deny access.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Code" &&
+    Input1.innerHTML == "" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "Haha, very funny. Have a Twitter link just for that.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "24px";
+    window.open("https://Twitter.com/Z4ckStudios");}
+
+    if(Input2.innerHTML == "zal" &&
+    Input1.innerHTML == "en" &&
+    Input3.innerHTML == "ãy")
+    {eventTimer.innerHTML = "Term No.2 - The Xâlãneí, more commonly known as the Ksalanskiy are entities from another Dimension, just beyond the walls of our own. The Ksalanskiy is a cannibalistic lifeform and seem to be smart enough to use said cannibalism as a threat towards one's own speices.";
+    eventTimer.style.marginTop = "-18%";
+    eventTimer.style.fontSize = "24px";}
+
+    if(Input2.innerHTML == "Please" &&
+    Input1.innerHTML == "Input" &&
+    Input3.innerHTML == "Code")
+    {eventTimer.innerHTML = "Now you're just copying me.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Back" &&
+    Input1.innerHTML == "Home" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "The button is right there mate!";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Verify" &&
+    Input1.innerHTML == "Input" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "I uh, don't think that's how codes work.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "9021" &&
+    Input1.innerHTML == "2432" &&
+    Input3.innerHTML == "0593")
+    {eventTimer.innerHTML = "Quite the observant one I see?";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Incentrix" &&
+    Input1.innerHTML == "Labs" &&
+    Input3.innerHTML == "")
+    {eventTimer.innerHTML = "Shh! Don't talk about them!!";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "1" &&
+    Input1.innerHTML == "H" &&
+    Input3.innerHTML == "3")
+    {eventTimer.innerHTML = "Woah! That is way off.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Z" &&
+    Input1.innerHTML == "E" &&
+    Input3.innerHTML == "N")
+    {eventTimer.innerHTML = "Who? Haha.. there's just us!";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+
+    if(Input2.innerHTML == "Z4" &&
+    Input1.innerHTML == "C" &&
+    Input3.innerHTML == "K")
+    {eventTimer.innerHTML = "I find this very offensive.";
+    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.fontSize = "50px";}
+})
+VerifyButton.addEventListener("mouseover",
+function() {
+
+    VerifyButton.style.cursor = "pointer";
+    VerifyButton.style.background = "#005500";
+    VerifyButton.style.border = "5px solid #003300";
+})
+VerifyButton.addEventListener("mouseout",
+function() {
+
+    VerifyButton.style.background = "green";
+    VerifyButton.style.border = "5px solid darkgreen";
 })
