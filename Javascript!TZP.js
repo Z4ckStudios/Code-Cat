@@ -21,7 +21,7 @@ var Input1 = document.getElementById("Input1");
 var Input3 = document.getElementById("Input3");
 
 var LockClick = new Audio();
-LockClick.src = "ZS-Audio/ZS - Lock Click.mp3";
+LockClick.src = "/ZS-Audio/ZS - Lock Click.mp3";
 
 var DeviceRatio = localStorage.getItem("DeviceRatio");
 
