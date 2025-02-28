@@ -320,7 +320,7 @@ function() {
     if(Input2.innerHTML == "Ksalanskiy" &&
     Input1.innerHTML == "=" &&
     Input3.innerHTML == "Xâlãneí")
-    {eventTimer.innerHTML = "Importance.";
+    {eventTimer.innerHTML = "Importance and Equality, 2 names for the price of 1.";
     eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "50px";}
 
@@ -339,9 +339,9 @@ function() {
     if(Input2.innerHTML == "Fallen" &&
     Input1.innerHTML == "Lands" &&
     Input3.innerHTML == "")
-    {eventTimer.innerHTML = "See you soon.. :)"
+    {eventTimer.innerHTML = "Fallen Lands - While it is true that the world was meant to break into infinity, we didn't account for Z E N on that day and everything got messed up badly.."
     eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
+    eventTimer.style.fontSize = "24px";}
 
     if(Input2.innerHTML == "Forbidden" &&
     Input1.innerHTML == "Entry" &&
@@ -379,9 +379,9 @@ function() {
     eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "50px";}
 
-    if(Input2.innerHTML == "Verify" &&
+    if(Input2.innerHTML == "Input" &&
     Input1.innerHTML == "Input" &&
-    Input3.innerHTML == "")
+    Input3.innerHTML == "Input")
     {eventTimer.innerHTML = "I uh, don't think that's how codes work.";
     eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "50px";}
@@ -389,35 +389,35 @@ function() {
     if(Input2.innerHTML == "9021" &&
     Input1.innerHTML == "2432" &&
     Input3.innerHTML == "0593")
-    {eventTimer.innerHTML = "Quite the observant one I see?";
+    {eventTimer.innerHTML = "1921 Input Lock - Manufactured and used by Incentrix Labs for their conveninece, this lock is entirely technology powered and cannot be bypassed as it contains no springs. Come to think of it, is the Incentrix Agency even huma- Hey! What are you doing?!- ...No Agency here haha.";
     eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
+    eventTimer.style.fontSize = "24px";}
 
     if(Input2.innerHTML == "Incentrix" &&
     Input1.innerHTML == "Labs" &&
     Input3.innerHTML == "")
-    {eventTimer.innerHTML = "Shh! Don't talk about them!!";
+    {eventTimer.innerHTML = "A top secret government facility that will end me if I tell you anything else about them. Shh- 1H3.";
     eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
+    eventTimer.style.fontSize = "24px";}
 
     if(Input2.innerHTML == "1" &&
     Input1.innerHTML == "H" &&
     Input3.innerHTML == "3")
-    {eventTimer.innerHTML = "Woah! That is way off.";
+    {eventTimer.innerHTML = "Woah! That is way off. *cough* IOE *cough*.";
     eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "50px";}
 
     if(Input2.innerHTML == "Z" &&
     Input1.innerHTML == "E" &&
     Input3.innerHTML == "N")
-    {eventTimer.innerHTML = "Who? Haha.. there's just us!";
+    {eventTimer.innerHTML = "Project ZEN - The Zen Project or TZP has burried 'someone' a long time ago for safe keeping just in case a crisis were to happen.. again.";
     eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
+    eventTimer.style.fontSize = "24px";}
 
-    if(Input2.innerHTML == "Z4" &&
-    Input1.innerHTML == "C" &&
-    Input3.innerHTML == "K")
-    {eventTimer.innerHTML = "I find this very offensive.";
+    if(Input2.innerHTML == "A" &&
+    Input1.innerHTML == "Z" &&
+    Input3.innerHTML == "T")
+    {eventTimer.innerHTML = "Fíràn.";
     eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "50px";}
 })
