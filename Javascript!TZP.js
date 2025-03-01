@@ -1,6 +1,6 @@
 // var url = "https://Z4ckStudios.com/TZP";
 var url = "https://Z4ckStudios.github.io/Z4ckStudios/TZP";
-// window.history.replaceState(null, document.title, url);
+window.history.replaceState(null, document.title, url);
 
 var body = document.querySelector("body");
 var eventTimer = document.querySelector(".eventTimer");
@@ -257,7 +257,9 @@ function() {
 
     if(CodeInput.id == "notVisible")
     {CodeInput.style.display = "inline";
-    eventTimer.style.marginTop = "-19%";
+    eventTimer.style.marginTop = "4.9%";
+    eventTimer.style.top = "0%";
+    eventTimer.style.transform = "";
     CodeInput.id = "visible";
 
     LockClick.src = "ZS-Audio/ZS - Lock Click.mp3";
@@ -265,9 +267,15 @@ function() {
     else
     if(CodeInput.id == "visible")
     {CodeInput.style.display = "none";
+    eventTimer.style.color = "#ffffff";
     eventTimer.style.marginTop = "0%";
+    eventTimer.style.top = "50%";
+    eventTimer.style.transform = "translate(-50%, -50%)";
     eventTimer.innerHTML = "~ Forbidden Entry ~";
     eventTimer.style.fontSize = "50px";
+    Input2.innerHTML = "";
+    Input1.innerHTML = "";
+    Input3.innerHTML = "";
     CodeInput.id = "notVisible";
     
     LockClick.src = "ZS-Audio/ZS - Lock Click.mp3";
@@ -300,126 +308,122 @@ function() {
     Input3.style.cursor = "pointer";
 })
 
+var eventInfo = ["Fallen Lands - While it is true that the world was meant to break into infinity, we didn't account for Z E N on that day and everything got messed up badly..", "Moreover, Fallen Lands is a combination of 2 smaller projects: TZP + AZT."];
+var EI = 2;
+
+var IAInfo = ["1921 Input Lock - Manufactured and used by Incentrix Labs for their conveninece, this lock is entirely technology powered and cannot be bypassed as it contains no springs. Come to think of it, is the Incentrix Agency even huma- Hey! What are you doing?!-", "...No Agency here haha."];
+var IAI = 2;
+
 VerifyButton.addEventListener("click",
 function() {
-
-    if(Input2.innerHTML == "" &&
-    Input1.innerHTML == "" &&
-    Input3.innerHTML == "")
-    {eventTimer.innerHTML = "~ Forbidden Entry ~";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
 
     if(Input2.innerHTML == "kay" &&
     Input1.innerHTML == "len" &&
     Input3.innerHTML == "ski")
-    {eventTimer.innerHTML = "Free Them.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
+    {eventTimer.innerHTML = "The 1st Name.";
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Ksalanskiy" &&
     Input1.innerHTML == "=" &&
     Input3.innerHTML == "Xâlãneí")
     {eventTimer.innerHTML = "Importance and Equality, 2 names for the price of 1.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "The" &&
     Input1.innerHTML == "Zen" &&
     Input3.innerHTML == "Project")
     {eventTimer.innerHTML = "This project is currently being rebuilt, why'd you come back here?";
     eventTimer.style.marginTop = "0%";
+    eventTimer.style.color = "#ffffff";
     eventTimer.style.fontSize = "24px";
+    eventTimer.style.top = "50%";
+    eventTimer.style.transform = "translate(-50%, -50%)";
     body.style.background = "black";
     TZPDarken.style.display = "none";
     TheZenProject.style.display = "inline";
     CodeInput.style.display = "none";
     TZPPadlock.style.display = "none";}
-
+    else
     if(Input2.innerHTML == "Fallen" &&
     Input1.innerHTML == "Lands" &&
     Input3.innerHTML == "")
-    {eventTimer.innerHTML = "Fallen Lands - While it is true that the world was meant to break into infinity, we didn't account for Z E N on that day and everything got messed up badly.."
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "24px";}
-
+    {EI = EI < eventInfo.length ? ++EI : EI - 2;
+    EI = EI < eventInfo.length ? +EI : EI - 2;
+    eventTimer.innerHTML = eventInfo[EI];
+    eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Forbidden" &&
     Input1.innerHTML == "Entry" &&
     Input3.innerHTML == "")
     {eventTimer.innerHTML = "Forbid - To deny access.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Code" &&
     Input1.innerHTML == "" &&
     Input3.innerHTML == "")
     {eventTimer.innerHTML = "Haha, very funny. Have a Twitter link just for that.";
-    eventTimer.style.marginTop = "-19%";
     eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";
     window.open("https://Twitter.com/Z4ckStudios");}
-
+    else
     if(Input2.innerHTML == "zal" &&
     Input1.innerHTML == "en" &&
     Input3.innerHTML == "ãy")
     {eventTimer.innerHTML = "Term No.2 - The Xâlãneí, more commonly known as the Ksalanskiy are entities from another Dimension, just beyond the walls of our own. The Ksalanskiy is a cannibalistic lifeform and seem to be smart enough to use said cannibalism as a threat towards one's own speices.";
-    eventTimer.style.marginTop = "-18%";
-    eventTimer.style.fontSize = "24px";}
-
+    eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Please" &&
     Input1.innerHTML == "Input" &&
     Input3.innerHTML == "Code")
     {eventTimer.innerHTML = "Now you're just copying me.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
-    if(Input2.innerHTML == "Back" &&
-    Input1.innerHTML == "Home" &&
-    Input3.innerHTML == "")
-    {eventTimer.innerHTML = "The button is right there mate!";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
-    if(Input2.innerHTML == "Input" &&
-    Input1.innerHTML == "Input" &&
-    Input3.innerHTML == "Input")
-    {eventTimer.innerHTML = "I uh, don't think that's how codes work.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "9021" &&
     Input1.innerHTML == "2432" &&
     Input3.innerHTML == "0593")
-    {eventTimer.innerHTML = "1921 Input Lock - Manufactured and used by Incentrix Labs for their conveninece, this lock is entirely technology powered and cannot be bypassed as it contains no springs. Come to think of it, is the Incentrix Agency even huma- Hey! What are you doing?!- ...No Agency here haha.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "24px";}
-
+    {IAI = IAI < IAInfo.length ? ++IAI : IAI - 2;
+    IAI = IAI < IAInfo.length ? +IAI : IAI - 2;
+    eventTimer.innerHTML = IAInfo[IAI];
+    eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Incentrix" &&
     Input1.innerHTML == "Labs" &&
     Input3.innerHTML == "")
     {eventTimer.innerHTML = "A top secret government facility that will end me if I tell you anything else about them. Shh- 1H3.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "24px";}
-
+    eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "1" &&
     Input1.innerHTML == "H" &&
     Input3.innerHTML == "3")
     {eventTimer.innerHTML = "Woah! That is way off. *cough* IOE *cough*.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
-
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "Z" &&
     Input1.innerHTML == "E" &&
     Input3.innerHTML == "N")
     {eventTimer.innerHTML = "Project ZEN - The Zen Project or TZP has burried 'someone' a long time ago for safe keeping just in case a crisis were to happen.. again.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "24px";}
-
+    eventTimer.style.fontSize = "24px";
+    eventTimer.style.color = "#ffffff";}
+    else
     if(Input2.innerHTML == "A" &&
     Input1.innerHTML == "Z" &&
     Input3.innerHTML == "T")
-    {eventTimer.innerHTML = "Fíràn.";
-    eventTimer.style.marginTop = "-19%";
-    eventTimer.style.fontSize = "50px";}
+    {eventTimer.innerHTML = "Fíràn, only you can stop this..";
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ffffff";}
+    else
+    {eventTimer.innerHTML = "Invalid Input";
+    eventTimer.style.fontSize = "50px";
+    eventTimer.style.color = "#ff0000";}
 })
 VerifyButton.addEventListener("mouseover",
 function() {
