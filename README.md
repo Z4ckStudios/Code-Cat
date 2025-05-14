@@ -14,7 +14,6 @@
 - <div><b>Occupation:</b> Entrepreneur</div>
 
 ### <p>Business Info:</p>
-- <div><b>Name:</b> Z4ck Studios</div>
 - <div><b>Purpose:</b> Housing</div>
 - <div><b>Community Link:</b> https://discord.gg/37uZ7ty9qW</div>
 
