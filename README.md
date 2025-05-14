@@ -10,7 +10,6 @@
 ### <p>About Me:</p>
 - <div><b>Name:</b> Zackiel</div>
 - <div><b>Age:</b> 18</div>
-- <div><b>Pronouns:</b> he/him</div>
 - <div><b>Personality:</b> INTJ</div>
 - <div><b>Occupation:</b> Entrepreneur</div>
 
