@@ -1,12 +1,45 @@
-# Hello and welcome to my personal website!
+# Z4ckStudios - Overview
 
-<blockquote>A bit about me:</blockquote>
-<p>An 18 year old developer of 1 housing business under 7 businesses.</p>
-<p>83% of my thoughts are just ideas-</p>
-<p>Projects: FL/IC</p>
+### <p>Description:</p>
+<div>Hello and welcome to my personal website.</div>
+<div>Here I promote links to my social media or servers and I occasionally drop some lore for upcoming projects!</div>
+<div>Check out https://Z4ckStudios.github.io/Z4ckStudios/TZP for more info.. :3</div>
+
+
+### <p>About Me:</p>
+- <div><b>Name:</b> Zackiel</div>
+- <div><b>Age:</b> 18</div>
+- <div><b>Pronouns:</b> he/him</div>
+- <div><b>Personality:</b> INTJ-T</div>
+- <div><b>Occupations:</b> Entrepreneur / Programmer / Software Engineer</div>
+- <div><b>Employment Status:</b> Self-Employed</div>
+- <div><b>Known Languages:</b> HTML, CSS, JS, Lua, and Batch</div>
+- <div><b>Current Schooling:</b> N/A</div>
+
+### <p>Business Info:</p>
+- <div><b>Name:</b> Z4ck Studios</div>
+- <div><b>Purpose:</b> Housing</div>
+- <div><b>Community Link:</b> https://discord.gg/37uZ7ty9qW</div>
+- <div><b>Current Works:</b> Animation, web design, and game development</div>
+
+### <p></p>
+- <div><b>Sub-Businesses:</b></div>
+
+<code>BFS</code>
+<code>CSS</code>
+<code>PRD</code>
+<code>DC0A</code>
+<code>CC0A</code>
+<code>SN</code>
+<code>LLP</code>
 
 # <p></p>
+### <p>Advertising:</p>
+<div>18 year old developer that does what an entire team of developers do, by himself.</div>
+<div>Projects: FL/IC</div>
+
+### <p></p>
 <p>questions, insider info?</p>
 <p>dm @Z4ckStudios on Discord.</p>
 
-<img width="25%" draggable="false" src="/ZS-Images/Z4ckStudiosLogo.png">
+<img width="25%" src="/ZS-Images/Z4ckStudiosLogo.png"></img>
