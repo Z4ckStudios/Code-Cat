@@ -33,7 +33,8 @@
 <div>Projects: FL/IC</div>
 
 ### <p></p>
-<p>questions, insider info?</p>
-<p>dm @Z4ckStudios on Discord.</p>
+<div>questions, insider info?</div>
+<div>dm @Z4ckStudios on Discord.</div>
 
+### <p></p>
 <img width="25%" src="/ZS-Images/Z4ckStudiosLogo.png"></img>
