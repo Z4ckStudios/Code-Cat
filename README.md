@@ -1,5 +1,5 @@
 # Z4ckStudios - Overview
-<p>Link: <a href="https://z4ckstudios.github.io/Z4ckStudios/">Click Me!</a></p>
+<p>Link: <a href="https://z4ckstudios.github.io/Z4ckStudios/">Click here to be redirected!</a></p>
 
 ### <p>Description:</p>
 <div>Hello and welcome to my personal website.</div>
