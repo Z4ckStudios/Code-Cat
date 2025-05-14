@@ -10,21 +10,16 @@
 - <div><b>Name:</b> Zackiel</div>
 - <div><b>Age:</b> 18</div>
 - <div><b>Pronouns:</b> he/him</div>
-- <div><b>Personality:</b> INTJ-T</div>
-- <div><b>Occupations:</b> Entrepreneur / Programmer / Software Engineer</div>
-- <div><b>Employment Status:</b> Self-Employed</div>
-- <div><b>Known Languages:</b> HTML, CSS, JS, Lua, and Batch</div>
-- <div><b>Current Schooling:</b> N/A</div>
+- <div><b>Personality:</b> INTJ</div>
+- <div><b>Occupation:</b> Entrepreneur</div>
 
 ### <p>Business Info:</p>
 - <div><b>Name:</b> Z4ck Studios</div>
 - <div><b>Purpose:</b> Housing</div>
 - <div><b>Community Link:</b> https://discord.gg/37uZ7ty9qW</div>
-- <div><b>Current Works:</b> Animation, web design, and game development</div>
 
 ### <p></p>
 - <div><b>Sub-Businesses:</b></div>
-
 <code>BFS</code>
 <code>CSS</code>
 <code>PRD</code>
