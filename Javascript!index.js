@@ -90,7 +90,7 @@ else
 if(Page2.id == "")
 {Page2.style.display = "none";}
 else
-{Page2.innerHTML = "TZP - Main Panel";}
+{Page2.innerHTML = "The Zen Project";}
 
 if(Page3.id == "")
 {Page3.style.display = "none";}
