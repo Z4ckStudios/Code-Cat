@@ -85,7 +85,7 @@ OChangelogB.style.display = "none";}}
 if(Page1.id == "")
 {Page1.style.display = "none";}
 else
-{Page1.innerHTML = "CS - Countdown";}
+{Page1.innerHTML = "HQ - Countdown";}
 
 if(Page2.id == "")
 {Page2.style.display = "none";}
