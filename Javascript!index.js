@@ -194,9 +194,9 @@ function() {
 Page1.addEventListener("click",
 function() {
 
-    //location.replace("CS.html");
-    //location.replace("https://Z4ckStudios.com/CS.html");
-    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/CS");
+    //location.replace("HQ.html");
+    //location.replace("https://Z4ckStudios.com/HQ.html");
+    location.replace("https://Z4ckStudios.github.io/Z4ckStudios/HQ");
 })
 Page1.addEventListener("mouseover",
 function() {
