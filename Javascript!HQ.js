@@ -23,7 +23,7 @@ if(DeviceRatio == "Mobile" && eventTimer.innerHTML == "0")
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
-    const time = new Date(`April 1, 2025 00:00:00`);
+    const time = new Date(`July 31, 2025 00:00:00`);
     const currentTime = new Date();
 
     const difference = time - currentTime;
