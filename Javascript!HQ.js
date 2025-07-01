@@ -1,5 +1,5 @@
-// var url = "https://Z4ckStudios.com/CS";
-var url = "https://Z4ckStudios.github.io/Z4ckStudios/CS";
+// var url = "https://Z4ckStudios.com/HQ";
+var url = "https://Z4ckStudios.github.io/Z4ckStudios/HQ";
 window.history.replaceState(null, document.title, url);
 
 var body = document.querySelector("body");
@@ -73,7 +73,7 @@ function countdownTimer(){
     if(days == 0 && hours == 0 && minutes == 0 && seconds <= 10 && eventTimer.innerHTML == `${seconds}s`)
     {eventTimer.style.color = "#FF0000";}
 
-    if(currentTime > new Date(`April 1, 2025 00:00:00`))
+    if(currentTime > new Date(`July 31, 2025 00:00:00`))
     {eventTimer.innerHTML = "0"
     eventTimer.style.display = 'none';
     clearInterval(countdownInterval);}
