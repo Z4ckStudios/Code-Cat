@@ -37,4 +37,4 @@
 <div>dm @Z4ckStudios on Discord.</div>
 
 ### <p></p>
-<img width="25%" src="/ZS-Images/Z4ckStudiosLogo.png"></img>
+<img width="25%" src="/assets/images/Z4ckStudiosLogo.png"></img>
