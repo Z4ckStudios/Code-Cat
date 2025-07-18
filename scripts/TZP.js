@@ -323,7 +323,7 @@ function() {
         eventTimer.style.top = "50%";
         eventTimer.style.transform = "translate(-50%, -50%)";
         eventTimer.innerHTML = "~ Forbidden Entry ~";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.style.fontSize = "4vw";
         Input2.innerHTML = "";
         Input1.innerHTML = "";
         Input3.innerHTML = "";
@@ -356,34 +356,27 @@ function() {
     Input3.style.cursor = "pointer";
 })
 
-var eventInfo = ["Fallen Lands - While it is true that the world was meant to break into infinity, we didn't account for Z E N on that day and everything got messed up badly..", "Moreover, Fallen Lands is a combination of 2 smaller projects: TZP + AZT."];
+var eventInfo = ["Fallen Lands - A story about many other stories being torn in two by AZT, all to protect the entity they call Z E N...", "Moreover, Fallen Lands is a combination of both TZP and AZT."];
 var EI = 2;
 
-var IAInfo = ["1921 Input Lock - Manufactured and used by Incentrix Labs for their conveninece, this lock is entirely technology powered and cannot be bypassed as it contains no springs. Come to think of it, is the Incentrix Agency even huma- Hey! What are you doing?!-", "...No Agency here haha."];
-var IAI = 2;
-
-function falseInput() {
-    eventTimer.innerHTML = "Haha, very funny. Have a Twitter link just for that.";
-    eventTimer.style.fontSize = "24px";
-    eventTimer.style.color = "#ffffff";
-    window.open("https://Twitter.com/Z4ckStudios");
-}
+A017Info = ["Term No.1 - A material capable of producing enough energy to rip a hole in the fabric of a universe, a gateway through the in between...", "Please contact your local authorities if you find this material being used, it is not to be created and risky if done."];
+A017I = 2;
 
 VerifyButton.addEventListener("click",
 function() {
     if(Input2.innerHTML == "kay" &&
     Input1.innerHTML == "len" &&
     Input3.innerHTML == "ski") {
-        eventTimer.innerHTML = "The 1st Name.";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.innerHTML = "Term No.1 - Although being the 1st name, the Xâlãneí (zal - en - ãy) was first introduced.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
     if(Input2.innerHTML == "Ksalanskiy" &&
     Input1.innerHTML == "=" &&
     Input3.innerHTML == "Xâlãneí") {
-        eventTimer.innerHTML = "Importance and Equality, 2 names for the price of 1.";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.innerHTML = "6th Dimension Species - The Ksalanskiy and Xâlãneí are 2 names for the same beings.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
@@ -393,7 +386,7 @@ function() {
         eventTimer.innerHTML = "This project is currently being rebuilt, why'd you come back here?";
         eventTimer.style.marginTop = "0%";
         eventTimer.style.color = "#ffffff";
-        eventTimer.style.fontSize = "24px";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.top = "50%";
         eventTimer.style.transform = "translate(-50%, -50%)";
         document.body.style.background = "black";
@@ -409,98 +402,79 @@ function() {
         EI = EI < eventInfo.length ? ++EI : EI - 2;
         EI = EI < eventInfo.length ? +EI : EI - 2;
         eventTimer.innerHTML = eventInfo[EI];
-        eventTimer.style.fontSize = "24px";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
-    }
-    else
-    if(Input2.innerHTML == "Forbidden" &&
-    Input1.innerHTML == "Entry" &&
-    Input3.innerHTML == "") {
-        eventTimer.innerHTML = "Forbid - To deny access.";
-        eventTimer.style.fontSize = "50px";
-        eventTimer.style.color = "#ffffff";
-    }
-    else
-    if(Input2.innerHTML == "Invalid" &&
-    Input1.innerHTML == "Input" &&
-    Input3.innerHTML == "") {
-        falseInput();
     }
     else
     if(Input2.innerHTML == "Code" &&
     Input1.innerHTML == "" &&
     Input3.innerHTML == "") {
-        falseInput();
+        eventTimer.innerHTML = "Haha, very funny. Have a Twitter link just for that.";
+        eventTimer.style.fontSize = "2vw";
+        eventTimer.style.color = "#ffffff";
+        window.open("https://twitter.com/Z4ckStudios");
     }
     else
     if(Input2.innerHTML == "zal" &&
     Input1.innerHTML == "en" &&
     Input3.innerHTML == "ãy") {
-        eventTimer.innerHTML = "Term No.2 - The Xâlãneí, more commonly known as the Ksalanskiy are entities from another Dimension, just beyond the walls of our own. The Ksalanskiy is a cannibalistic lifeform and seem to be smart enough to use said cannibalism as a threat towards one's own speices.";
-        eventTimer.style.fontSize = "24px";
-        eventTimer.style.color = "#ffffff";
-    }
-    else
-    if(Input2.innerHTML == "Please" &&
-    Input1.innerHTML == "Input" &&
-    Input3.innerHTML == "Code") {
-        eventTimer.innerHTML = "Now you're just copying me.";
-        eventTimer.style.fontSize = "50px";
-        eventTimer.style.color = "#ffffff";
-    }
-    else
-    if(Input2.innerHTML == "Verify" &&
-    Input1.innerHTML == "Input" &&
-    Input3.innerHTML == "") {
-        eventTimer.innerHTML = "The button... IS RIGHT THERE.";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.innerHTML = "Term No.2 - The Xâlãneí, more commonly known as the Ksalanskiy. Entities from another Dimension, just beyond the walls of our own. The Ksalanskiy is a cannibalistic lifeform and seem to be smart enough to use said cannibalism as a threat towards one's own speices.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
     if(Input2.innerHTML == "9021" &&
     Input1.innerHTML == "2432" &&
     Input3.innerHTML == "0593") {
-        IAI = IAI < IAInfo.length ? ++IAI : IAI - 2;
-        IAI = IAI < IAInfo.length ? +IAI : IAI - 2;
-        eventTimer.innerHTML = IAInfo[IAI];
-        eventTimer.style.fontSize = "24px";
+        eventTimer.innerHTML = "1921 Input Lock - Manufactured and used by Incentrix Labs for their convenience, this lock is entirely technology powered and cannot be bypassed as it contains no springs.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
     if(Input2.innerHTML == "Incentrix" &&
     Input1.innerHTML == "Labs" &&
     Input3.innerHTML == "") {
-        eventTimer.innerHTML = "A top secret government facility that will delete my programming if I tell you anything else about them. Shh.. 1X3.";
-        eventTimer.style.fontSize = "24px";
-        eventTimer.style.color = "#ffffff";
-    }
-    else
-    if(Input2.innerHTML == "1" &&
-    Input1.innerHTML == "X" &&
-    Input3.innerHTML == "3") {
-        eventTimer.innerHTML = "I'm not even gonna help you out at this point.";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.innerHTML = "The Incentrix - A top secret government facility that will delete my programming if I tell you anything else about them, no one knows who they are or what they're capable of.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
     if(Input2.innerHTML == "Z" &&
     Input1.innerHTML == "E" &&
     Input3.innerHTML == "N") {
-        eventTimer.innerHTML = "Project ZEN - The Zen Project or TZP has burried 'Artifact 017' a long time ago for safe keeping just in case a crisis were to happen.. again.";
-        eventTimer.style.fontSize = "24px";
+        eventTimer.innerHTML = "Project ZEN - An abandoned entity that only authorized personal are allowed to visit, they buried a safeguard against 'Artifact 017' in case crisis were to happen... again.";
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else
     if(Input2.innerHTML == "A" &&
     Input1.innerHTML == "Z" &&
     Input3.innerHTML == "T") {
-        eventTimer.innerHTML = "A man-eating horror show of a dimension called the 'Astral Zone of Timespace' that drives you to the point of insanity with its' white void and complete lack of physics.";
-        eventTimer.style.fontSize = "24px";
+        eventTimer.innerHTML = "Gateway 101 - A man-eating horror show of a dimension called the 'Astral Zone of Timespace' that drives you to the point of insanity with its' white void and complete lack of physics.";
+        eventTimer.style.fontSize = "2vw";
+        eventTimer.style.color = "#ffffff";
+    }
+    else
+    if(Input2.innerHTML == "Artifact" &&
+    Input1.innerHTML == "017" &&
+    Input3.innerHTML == "") {
+        eventTimer.innerHTML = "Term No.2 - The Artifact, more commonly known as 'Acrodite', a classified material responsible for the death of millions.";
+        eventTimer.style.fontSize = "2vw";
+        eventTimer.style.color = "#ffffff";
+    }
+    else
+    if(Input2.innerHTML == "Acrodite" &&
+    Input1.innerHTML == "" &&
+    Input3.innerHTML == "") {
+        A017I = A017I < A017Info.length ? ++A017I : A017I - 2;
+        A017I = A017I < A017Info.length ? +A017I : A017I - 2;
+        eventTimer.innerHTML = A017Info[A017I];
+        eventTimer.style.fontSize = "2vw";
         eventTimer.style.color = "#ffffff";
     }
     else {
         eventTimer.innerHTML = "Invalid Input";
-        eventTimer.style.fontSize = "50px";
+        eventTimer.style.fontSize = "4vw";
         eventTimer.style.color = "#ff0000";
     }
 })
