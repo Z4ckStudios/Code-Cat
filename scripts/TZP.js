@@ -359,7 +359,7 @@ function() {
 var eventInfo = ["Fallen Lands - A story about many other stories being torn in two by AZT, all to protect the entity they call Z E N...", "Moreover, Fallen Lands is a combination of both TZP and AZT."];
 var EI = 2;
 
-A017Info = ["Term No.1 - A material capable of producing enough energy to rip a hole in the fabric of a universe, a gateway through the in between...", "Please contact your local authorities if you find this material being used, it is not to be created and risky if done."];
+A017Info = ["Term No.1 - A material capable of producing enough energy to rip a hole in the fabric of a universe, a gateway through the in-between...", "Please contact your local authorities if you find this material being used, it is not to be created and risky if done."];
 A017I = 2;
 
 VerifyButton.addEventListener("click",
