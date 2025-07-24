@@ -30,7 +30,7 @@
 # <p></p>
 ### <p>Advertising:</p>
 <div>18 year old developer that does what an entire team of developers do, by himself.</div>
-<div>Projects: FL/IC</div>
+<div>Projects: FL/HQ</div>
 
 ### <p></p>
 <div>questions, insider info?</div>
