@@ -30,7 +30,7 @@ if(DeviceRatio == "Portrait" && eventTimer.innerHTML == "0") {
 const countdownInterval = setInterval(countdownTimer, 1000);
 
 function countdownTimer(){
-    const time = new Date(`July 31, 2025 18:30:00`);
+    const time = new Date(`July 31, 2025 19:00:00`);
     const currentTime = new Date();
 
     const difference = time - currentTime;
@@ -112,7 +112,7 @@ function countdownTimer(){
         eventTimer.style.color = "#FF0000";
     }
 
-    if(currentTime > new Date(`July 31, 2025 18:30:00`)) {
+    if(currentTime > new Date(`July 31, 2025 19:00:00`)) {
         eventTimer.innerHTML = "Hue Quest is out now on PC platforms at: <a style='color: #FF5555; text-shadow: 0px 5px 10px #FF5555;' href='https://Z4ckStudios.itch.io/huequest'>https://Z4ckStudios.itch.io/huequest</a>";
         eventTimer.style.fontFamily = "monospace";
         eventTimer.style.fontSize = "3vw";
