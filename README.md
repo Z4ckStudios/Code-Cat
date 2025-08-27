@@ -29,7 +29,7 @@
 
 # <p></p>
 ### <p>Advertising:</p>
-<div>18 year old college student who specializes in both entertainment and game development!</div>
+<div>A small business hosted by an 18 year old college student who specializes in both entertainment and game development!</div>
 <div>Want to support the `Code Cat`? Contributing is free!</div>
 
 ### <p></p>
