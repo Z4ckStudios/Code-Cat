@@ -1,4 +1,4 @@
-# Z4ckStudios - Overview
+# Code Cat - Overview
 <p>Link: <a href="https://z4ckstudios.github.io/Z4ckStudios/">Click here to be redirected!</a></p>
 
 ### <p>Description:</p>
