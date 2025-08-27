@@ -29,12 +29,8 @@
 
 # <p></p>
 ### <p>Advertising:</p>
-<div>18 year old developer that does what an entire team of developers do, by himself.</div>
-<div>Projects: FL/HQ</div>
-
-### <p></p>
-<div>questions, insider info?</div>
-<div>dm @Z4ckStudios on Discord.</div>
+<div>18 year old college student who specializes in both entertainment and game development!</div>
+<div>Want to support the `Code Cat`? Contributing is free!</div>
 
 ### <p></p>
 <img width="25%" src="/assets/images/Z4ckStudiosLogo.png"></img>
