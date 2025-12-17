@@ -1,7 +1,7 @@
 // var url = "https://Z4ckStudios.com/";
-var url = "https://Z4ckStudios.github.io/Z4ckStudios/";
+var url = "https://Z4ckStudios.github.io/Code-Cat/";
 
-if(document.baseURI == "https://z4ckstudios.github.io/Z4ckStudios/index.html") {
+if(document.baseURI == "https://z4ckstudios.github.io/Code-Cat/index.html") {
     window.history.replaceState(null, document.title, url);
 }
 

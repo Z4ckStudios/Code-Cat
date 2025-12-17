@@ -1,7 +1,7 @@
 // var url = "https://Z4ckStudios.com/TZP";
-var url = "https://Z4ckStudios.github.io/Z4ckStudios/TZP";
+var url = "https://Z4ckStudios.github.io/Code-Cat/TZP";
 
-if(document.baseURI == "https://z4ckstudios.github.io/Z4ckStudios/TZP.html") {
+if(document.baseURI == "https://z4ckstudios.github.io/Code-Cat/TZP.html") {
     window.history.replaceState(null, document.title, url);
 }
 
