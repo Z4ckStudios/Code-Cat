@@ -6,8 +6,39 @@ body {
     margin: 0;
 
 }
-#wrapper {
+#Text {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+#L2 {
+    font-size: 1.5vw;
+    text-transform: none;
+    color: #ff0000
+}
+#Button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1vw;
+    border: 5px solid #ffffff;
+    background: #000000;
+
+    transition: all;
+    transition-timing-function: ease-in;
+}
+#RRwrapper {
     overflow: hidden;
+    display: none;
 }
 #vidRR {
     position: absolute;
