@@ -1,0 +1,202 @@
+body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+#MainWrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#homeButton {
+    position: absolute;
+    bottom: -0.5vw;
+    left: 0.5vw;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1vw;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    font-family: Times;
+    z-index: 3;
+}
+#bgcssContainer, #bgcssContainer1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 2;
+  pointer-events: none;
+}
+#bgcss, #bgcss1 {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    image-rendering: pixelated;
+}
+#bgcss1 {
+    overflow-y: hidden;
+}
+#backwallText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 3vw;
+}
+#gameTitle {
+    position: absolute;
+    font-size: 3vw;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+}
+#gamesBackground, #backwallBackground {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75vw;
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: white;
+    opacity: 0.1;
+}
+#gameObject1, #gameObject2 {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#gameObject1 {
+    margin-left: -9vw;
+}
+#gameObject2 {
+    margin-left: 9vw;
+}
+#gameBackground, #gameBorder, #gameButton1, #gameButton2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12.5vw;
+    height: 36vh;
+    background: #ff00ff;
+    margin-top: 15vh;
+    opacity: 0.1;
+}
+#gameBorder {
+    background: transparent;
+    border: 1px solid #ffffff;
+    opacity: 1;
+}
+#gameButton1, #gameButton2 {
+    opacity: 0;
+}
+#gameTitle, #gameSubTitle, #gameGenre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+#gameImg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10vw;
+}
+#gameTitle {
+    color: #ffffff;
+    font-size: 0.8vw;
+    width: 10vw;
+}
+#gameSubTitle {
+    color: #aaaaaa;
+    font-size: 0.6vw;
+    width: 10vw;
+}
+#gameGenre {
+    color: #888888;
+    font-size: 0.6vw;
+    width: 10vw;
+}
+#windowsPlatform, .windows {
+    position: absolute;
+    left: -5.2vw;
+    margin-top: 1.5vw;
+    width: 1vw;
+}
+.windows {
+    position: absolute;
+    margin-left: 0.25vw;
+}
+#InstructionWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333333;
+    border: 5px solid #222222;
+    color: #ffffff;
+    width: 40vw;
+    height: 50vh;
+    z-index: 3;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+#InstructionWrapper li {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4vh;
+    background: #333333;
+    list-style: none;
+    background: #222222;
+    padding: 5px;
+    width: 35vw;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+#IWBackground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}
+#closeIWB {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2.5vw;
+    text-transform: uppercase;
+    border: 2.5px solid #555555;
+    background: #777777;
+    padding: 5px;
+    width: 15vw;
+}
+::-webkit-scrollbar {
+    background: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+}

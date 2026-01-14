@@ -1,0 +1,216 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#LinksWrapper {
+    position: absolute;
+    bottom: -50.7vh;
+    left: 0vw;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 15%;
+    height: 42.5%;
+    padding: 25px;
+    border-radius: 10px;
+    background: rgb(20, 20, 20);
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#TwitterB, #YTB, #TwitchB, #DiscordB {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: Times;
+    color: white;
+    border-radius: 10px;
+    text-indent: 25%;
+    font-size: 15px;
+    height: 40px;
+    align-content: center;
+
+    transition: all;
+    transition-duration: 0.25s;
+}
+#TwitterB {
+    background: rgb(0, 0, 150) image-set("../assets/images/TwitterLogo.png") no-repeat;
+    background-size: 25%;
+    background-position-y: 50%;
+    background-position-x: 15%;
+}
+#YTB {
+    background: rgb(150, 0, 0) image-set("../assets/images/YoutubeLogo.png") no-repeat;
+    background-size: 25%;
+    background-position-y: 50%;
+    background-position-x: 15%;
+    
+}
+#TwitchB {
+    background: rgb(75, 0, 100) image-set("../assets/images/TwitchLogo.png") no-repeat;
+    background-size: 35%;
+    background-position-y: 50%;
+    background-position-x: 12.5%;
+}
+#DiscordB {
+    background: rgb(50, 50, 255) image-set("../assets/images/DiscordLogo.png") no-repeat;
+    background-size: 17.5%;
+    background-position-y: 50%;
+    background-position-x: 20%;
+}
+#ZSTopSet {
+    position: absolute;
+    top: 0.75vw;
+}
+#MainTitle {
+    position: relative;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+}
+#TitleUnderline {
+    position: relative;
+    margin-top: 3.25vw;
+    border-bottom: 2px solid rgb(75, 75, 75);
+}
+#ZSChangelog {
+    position: absolute;
+    bottom: 0vh;
+    right: 0vw;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background: rgb(20, 20, 20);
+    text-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+    width: 20%;
+    height: 60%;
+    padding: 25px;
+    color: #00ff00;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Times;
+
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+::-webkit-scrollbar {
+    background: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+}
+#pagesWrapper {
+    position: relative;
+    background: transparent;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+#Page1, #Page2, #Page3, #Page4, #Page5 {
+    position: relative;
+    color: #00ffff;
+    opacity: 0.5;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.SLNum {
+    position: relative;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 1.5vw;
+}
+#dockSwitcher, #pageSwitcher {
+    position: relative;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: #00ffff;
+    opacity: 0.5;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#dockSwitcher {
+    background: transparent;
+    display: none;
+}
+#pageSwitcher {
+    background: rgb(15, 15, 15);
+}
+#OSMPanelB, #CChangelogB {
+    position: relative;
+    background: rgb(15, 15, 15);
+    font-size: 1.5vw;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+    opacity: 0.5;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#CChangelogB {
+    color: #ff0000;
+}
+#OSMPanelB {
+    color: #00ff00;
+}
+#DockButtons, #VisualDocks {
+    display: none;
+}
+#Z4ckStudiosLED, #PHLightenBackground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}
+#PHLightenBackground {
+    background: white;
+    display: inline;
+    opacity: 0.025;
+}
+#wrapper {
+    display: inline;
+}
+#ZSRightSet {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#CLSep {
+    margin-top: 5%;
+    width: 100vw;
+    border-bottom:
+    1px solid #00ff00;
+}
+#C1 {
+    color: white;
+    line-height: normal;
+    margin-top: -5%;
+}
