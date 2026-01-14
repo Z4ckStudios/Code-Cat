@@ -130,8 +130,8 @@ function() {
     }
     else
     if(MainWrapper.style.display == "none") {
-        url = "../Project-Dashboard/";
-        window.history.replaceState(null, document.title, url);
+        // url = "../Project-Dashboard/";
+        // window.history.replaceState(null, document.title, url);
 
         bgImg.style.display = "inline";
         MainWrapper.style.display = "inline";

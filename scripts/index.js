@@ -3,11 +3,6 @@ import {CNum, CText} from "./ChangelogElems.js";
 var url = "https://z4ckstudios.com";
 window.history.replaceState(null, document.title, url);
 
-// if(url == "../Upcoming/Upcoming.html" ||
-// url == "../Upcoming/index.html") {
-//     location.replace("../Pages");
-// }
-
 var CWrapper = document.getElementById("CWrapper");
 
 var LinksWrapper = document.getElementById("LinksWrapper");

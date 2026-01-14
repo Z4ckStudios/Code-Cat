@@ -159,8 +159,8 @@ function countdownTimer(){
 homeButton.addEventListener("click",
 function() {
     if(homeButton.innerHTML == "← Back") {
-        url = "../Upcoming/";
-        window.history.replaceState(null, document.title, url);
+        // url = "../Upcoming/";
+        // window.history.replaceState(null, document.title, url);
 
         eventTimer.style.display = "none";
         bgImg.style.display = "inline";
