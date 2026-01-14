@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="shortcut icon" href="assets/images/Z4ckStudiosLogo.png" alt="Ph4nt0mZStudios Logo" type="image/ZS-icon">
-  <title>Z4ck Studios</title>
+  <link rel="shortcut icon" href="assets/images/Z4ckStudiosLogo.png" type="image/ZS-icon">
+  <title>Code Cat</title>
 
   <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
@@ -13,67 +13,49 @@
     <code id="PHLightenBackground"></code>
 
     <div id="ZSTopSet">
-      <span id="MainTitle">Z4ck Studios</span>
+      <span id="MainTitle">Z4ck Studios:</span>
 
       <span id="dockSwitcher">Pages</span>
       <span id="pageSwitcher">Docks</span>
 
-        <div id="pagesWrapper">
-          <span id="PageColon"> / </span>
-          <span id="Page1" class="P1Established">Page 1</span>
-          <span id="PageColon"> / </span>
-          <span id="Page2" class="P2Established">Page 2</span>
-          <span id="PageColon"> / </span>
-          <span id="Page3" class="">Page 3</span>
-          <span id="Page4" class="">Page 4</span>
-          <span id="Page5" class="">Page 5</span>
-        </div>
+      <div id="pagesWrapper"></div>
 
-        <span id="CSMPanelB">Close Social Media Panel</span>
-        <span id="OSMPanelB">Open Social Media Panel</span>
-
-        <p id="CChangelogB">Close Changelog</p>
-        <p id="OChangelogB">Open Changelog</p>
-    </div>
-
-    <div id="ZSRightSet">
-      <p id="ZSIPortfolio">Itch - ZS Portfolio</p>
+      <div id="DockButtons">
+        <span id="OSMPanelB"></span>
+        <span id="CChangelogB"></span>
+      </div>
     </div>
 
     <p id="TitleUnderline"></p>
 
-    <div id="Subtitles">
-      <p id="SubtitlesTop">Ello, I am Zack</p>
-      <p id="SubtitlesBottom">Only I know da way</p>
-    </div>
+    <div id="VisualDocks">
+      <div id="ZSChangelog">
+        Z4ck Studios - Changelog
+        <p id="CLSep"></p>
+        <div id="CWrapper"></div>
+      </div>
 
-    <div id="DConDiv">
-      <p><img id="DConsoleButton" style="margin-bottom: -25px;" width="7.5%" draggable="false" src="assets/images/DeveloperConsole.png"></p>
-      <p id="DConsoleText">Developer Console</p>
-    </div>
+      <div id="LinksWrapper">
+        Social Media Links:
 
-    <div id="ZSChangelog">
-      Z4ck Studios - Changelog
-      <p id="CLSep"></p>
-      <div id="CWrapper"></div>
-    </div>
-
-    <div id="LinksWrapper">
-      Social Media Links:
-
-      <p id="TwitterB">Twitter</p>
-      <p id="YTB">Youtube</p>
-      <p id="TwitchB">Twitch</p>
-      <p id="DiscordB">Discord</p>
+        <p id="TwitterB">Twitter</p>
+        <p id="YTB">Youtube</p>
+        <p id="TwitchB">Twitch</p>
+        <p id="DiscordB">Discord</p>
+      </div>
     </div>
   </div>
 
-  <div id="portraitInformative">
-    <p id="POIBackground"></p>
-    <li id="POI1">Hello mobile user!!</li>
-    <li id="POI2">you appear to be using your device in the portrait orientation</li>
-    <li id="POI3">Please rotate your device in the landscape orientation to view this wonderful website!</li>
-  </div>
+  <!-- Scripts -->
+  <script src="scripts/index.js" type="module"></script>
+  <script src="scripts/ChangelogElems.js" type="module"></script>
+
+  <script>
+    var OSMPanelB = document.getElementById("OSMPanelB");
+    var CChangelogB = document.getElementById("CChangelogB");
+
+    OSMPanelB.textContent = "< Open SM Panel >";
+    CChangelogB.textContent = "< Close Changelog >";
+  </script>
 </body>
-  <script src="scripts/index.js"></script>
 </html>

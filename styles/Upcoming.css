@@ -1,0 +1,101 @@
+body {
+    background: #000000;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#MainWrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#Backgrounds {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#bgImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    opacity: 0.25;
+    
+    transition: all;
+    transition-duration: 0.5s;
+}
+#HQbg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    opacity: 0.25;
+    
+    transition: all;
+    transition-duration: 0.5s;
+}
+#HQB {
+    margin-top: 0.5vw;
+}
+#MainWrapper li {
+    margin-left: 1vw;
+    list-style: none;
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-weight: bold;
+}
+#PN {
+    color: #ffffff;
+}
+#ProjectStatusE, #ProjectStatusNE {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#ProjectStatusE {
+    color: #ff0000;
+}
+#ProjectStatusNE {
+    color: #00ff00;
+}
+#eventTimer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Times;
+    color: #ffffff;
+    font-size: 8vw;
+    display: inline;
+    text-wrap: nowrap;
+    text-align: center;
+}
+#wrapper {
+    display: inline;
+}
+#homeButton {
+    position: absolute;
+    bottom: -0.5vw;
+    left: 0.5vw;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1vw;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    font-family: Times;
+}
+::-webkit-scrollbar {
+    background: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+}
