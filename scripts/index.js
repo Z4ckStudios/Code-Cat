@@ -1,6 +1,6 @@
 import {CNum, CText} from "./ChangelogElems.js";
 
-var url = "../Pages";
+var url = "https://z4ckstudios.com";
 window.history.replaceState(null, document.title, url);
 
 // if(url == "../Upcoming/Upcoming.html" ||
@@ -83,16 +83,16 @@ for(let i = 0; i < CText.length; i++) {
 }
 
 if(CurrentSwitcher == null, "pageSwitcher") {
-    url = "../Pages";
-    window.history.replaceState(null, document.title, url);
+    // url = "../Pages";
+    // window.history.replaceState(null, document.title, url);
 
     pageSwitcher.style.display = "inline";
     dockSwitcher.style.display = "none";
     pagesWrapper.style.display = "inline";
 }
 if(CurrentSwitcher == "dockSwitcher") {
-    url = "../Docks";
-    window.history.replaceState(null, document.title, url);
+    // url = "../Docks";
+    // window.history.replaceState(null, document.title, url);
 
     pageSwitcher.style.display = "none";
     dockSwitcher.style.display = "inline";
@@ -133,8 +133,8 @@ if(ZSCStatus == "Closed") {
 
 pageSwitcher.addEventListener("click",
 function() {
-    url = "../Docks";
-    window.history.replaceState(null, document.title, url);
+    // url = "../Docks";
+    // window.history.replaceState(null, document.title, url);
 
     localStorage.setItem("Pages", "false");
 
@@ -164,8 +164,8 @@ function() {
 
 dockSwitcher.addEventListener("click",
 function() {
-    url = "../Pages";
-    window.history.replaceState(null, document.title, url);
+    // url = "../Pages";
+    // window.history.replaceState(null, document.title, url);
     
     localStorage.setItem("Pages", "true");
 

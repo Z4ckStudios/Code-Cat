@@ -53,8 +53,8 @@ PNlist.forEach(node => {
     node.addEventListener("click",
     function() {
         if(node.textContent == "The Zen Project") {
-            url = "../Project-Dashboard/The-Zen-Project";
-            window.history.replaceState(null, document.title, url);
+            // url = "../Project-Dashboard/The-Zen-Project";
+            // window.history.replaceState(null, document.title, url);
 
             TZPWrapper.style.display = "inline";
             TZPbg.style.width = `${100}vw`;

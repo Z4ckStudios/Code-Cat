@@ -198,8 +198,8 @@ function() {
     homeButton.innerHTML = "← Back";
 
     if(PN.parentElement.id == "HQB") {
-        url = "../Upcoming/Hue-Quest";
-        window.history.replaceState(null, document.title, url);
+        // url = "../Upcoming/Hue-Quest";
+        // window.history.replaceState(null, document.title, url);
 
         ProjectName = "Hue Quest";
         ProjectDate = HueQuestDate;
