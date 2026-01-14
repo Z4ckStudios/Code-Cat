@@ -1,4 +1,4 @@
-var url = "../Game-Dashboard/";
+var url = "../Game-Dashboard";
 window.history.replaceState(null, document.title, url);
 
 var bgcss = document.getElementById("bgcss");

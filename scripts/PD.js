@@ -1,4 +1,4 @@
-var url = "../Project-Dashboard/";
+var url = "../Project-Dashboard";
 window.history.replaceState(null, document.title, url);
 
 var bgImg = document.getElementById("bgImg");

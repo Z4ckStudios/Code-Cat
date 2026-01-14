@@ -1,4 +1,4 @@
-var url = "../Upcoming/";
+var url = "../Upcoming";
 window.history.replaceState(null, document.title, url);
 
 var bgImg = document.getElementById("bgImg");

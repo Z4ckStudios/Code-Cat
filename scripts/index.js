@@ -1,6 +1,6 @@
 import {CNum, CText} from "./ChangelogElems.js";
 
-var url = "https://z4ckstudios.com";
+var url = "../";
 window.history.replaceState(null, document.title, url);
 
 var CWrapper = document.getElementById("CWrapper");
