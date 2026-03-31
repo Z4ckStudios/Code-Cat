@@ -1,0 +1,49 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: "Courier New";
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#Ciphered {
+    position: absolute;
+    width: 0.2vw;
+}
+#CODE {
+    position: absolute;
+    image-rendering: pixelated;
+    width: 5vw;
+    height: 0.01vh;
+}
+#eventTimer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    display: inline;
+    text-wrap: nowrap;
+    text-align: center;
+}
+#homeButton {
+    position: absolute;
+    bottom: -0.5vw;
+    left: 0.5vw;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1vw;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    font-family: Times;
+}
+::-webkit-scrollbar {
+    background: rgb(15, 15, 15);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 20, 20);
+    cursor: pointer;
+}

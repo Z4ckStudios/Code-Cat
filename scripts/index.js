@@ -26,11 +26,11 @@ var PageContent = [
     "Upcoming",
     "Project Dashboard",
     "Game Dashboard",
-    "About Us",
+    "RETURN", // About Us
     "",
 ];
 
-for(let i = 0; i < 3; i++) {
+for(let i = 0; i < 4; i++) {
     var PageSep = document.createElement("span");
     var Page = PageSep.cloneNode();
 
@@ -203,6 +203,12 @@ PWChildren.forEach(page => {
         page.addEventListener("click",
         function() {
             location.replace("../Game-Dashboard.html");
+        })
+    }
+    if(page.id == "Page4") {
+        page.addEventListener("click",
+        function() {
+            location.replace("../RETURN.html");
         })
     }
     if(page.id == "Page1" ||
